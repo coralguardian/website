@@ -51,6 +51,11 @@
     },
     {
       "type" : "vcs",
+      "url": "git@github.com:coralguardian/module-coralguardian.git",
+      "no-api": true
+    },
+    {
+      "type" : "vcs",
       "url": "git@github.com:ds-hyperion/api2pdf.git",
       "no-api": true
     },
@@ -68,6 +73,22 @@
       "type" : "vcs",
       "url": "git@github.com:ds-hyperion/stripe.git",
       "no-api": true
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.9.3",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t={%version}"
+        },
+        "require": {
+          "composer/installers": "2.*",
+          "ffraenz/private-composer-installer": "^5.0"
+        }
+      }
     }
   ],
   "require": {
@@ -83,7 +104,8 @@
     "d4rk0snet/adoption": "dev-dev",
     "d4rk0snet/donation": "dev-dev",
     "ext-json": "*",
-    "advanced-custom-fields/advanced-custom-fields-pro": "5.9.*"
+    "advanced-custom-fields/advanced-custom-fields-pro": "5.9.*",
+    "d4rk0snet/coralguardian": "dev-dev"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6.2",

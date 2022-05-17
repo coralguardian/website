@@ -4,8 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f762ed49295c3f18daaea00c87801f1",
+    "content-hash": "94cd9e795c3b59bcd8c6f489b4600485",
     "packages": [
+        {
+            "name": "advanced-custom-fields/advanced-custom-fields-pro",
+            "version": "5.9.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t={%version}"
+            },
+            "require": {
+                "composer/installers": "2.*",
+                "ffraenz/private-composer-installer": "^5.0"
+            },
+            "type": "wordpress-plugin"
+        },
         {
             "name": "api2pdf/api2pdf.php",
             "version": "2.0.2",
@@ -288,17 +301,46 @@
             "time": "2022-05-16T08:48:16+00:00"
         },
         {
+            "name": "d4rk0snet/coralguardian",
+            "version": "dev-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:coralguardian/module-coralguardian.git",
+                "reference": "847cb825e6a0def23fdef14ad098963e353469f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/coralguardian/module-coralguardian/zipball/847cb825e6a0def23fdef14ad098963e353469f4",
+                "reference": "847cb825e6a0def23fdef14ad098963e353469f4",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "D4rk0snet\\Coralguardian\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "d4rk0s",
+                    "email": "gregory@d4rk0s.net"
+                }
+            ],
+            "time": "2022-05-17T14:01:41+00:00"
+        },
+        {
             "name": "d4rk0snet/donation",
             "version": "dev-dev",
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-donation.git",
-                "reference": "e96db29624c0fe2bb0e287b9c535fb2a686779ee"
+                "reference": "f5927abc8e708f83159915b435582ae83ce81357"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-donation/zipball/e96db29624c0fe2bb0e287b9c535fb2a686779ee",
-                "reference": "e96db29624c0fe2bb0e287b9c535fb2a686779ee",
+                "url": "https://api.github.com/repos/coralguardian/module-donation/zipball/f5927abc8e708f83159915b435582ae83ce81357",
+                "reference": "f5927abc8e708f83159915b435582ae83ce81357",
                 "shasum": ""
             },
             "require": {
@@ -323,7 +365,7 @@
                 }
             ],
             "description": "Plugin permettant à des personnes de faire un don",
-            "time": "2022-05-17T10:16:12+00:00"
+            "time": "2022-05-17T13:38:30+00:00"
         },
         {
             "name": "d4rk0snet/email",
@@ -331,12 +373,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-email.git",
-                "reference": "7feffa1a7d677ae0681be153e6e8128db8d34449"
+                "reference": "cb17cbac0453cbd7a72dcb7ed8d8c6b09e838337"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-email/zipball/7feffa1a7d677ae0681be153e6e8128db8d34449",
-                "reference": "7feffa1a7d677ae0681be153e6e8128db8d34449",
+                "url": "https://api.github.com/repos/coralguardian/module-email/zipball/cb17cbac0453cbd7a72dcb7ed8d8c6b09e838337",
+                "reference": "cb17cbac0453cbd7a72dcb7ed8d8c6b09e838337",
                 "shasum": ""
             },
             "require": {
@@ -357,7 +399,7 @@
                 }
             ],
             "description": "Plugin gérant le système d'emailing à travers sendinblue",
-            "time": "2022-05-16T10:02:50+00:00"
+            "time": "2022-05-17T13:38:30+00:00"
         },
         {
             "name": "d4rk0snet/fiscalreceipt",
@@ -1408,6 +1450,73 @@
                 }
             ],
             "time": "2022-05-06T06:10:05+00:00"
+        },
+        {
+            "name": "ffraenz/private-composer-installer",
+            "version": "v5.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ffraenz/private-composer-installer.git",
+                "reference": "8655e3da4e8f99203f13ccca33b9ab953ad30a31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ffraenz/private-composer-installer/zipball/8655e3da4e8f99203f13ccca33b9ab953ad30a31",
+                "reference": "8655e3da4e8f99203f13ccca33b9ab953ad30a31",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": "^7.1 || ^8.0",
+                "vlucas/phpdotenv": "^4.1 || ^5.2"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0 || ^2.0",
+                "laminas/laminas-coding-standard": "^2.0",
+                "symfony/phpunit-bridge": "^5.1",
+                "symfony/process": "^4.4 || ^5.1"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "FFraenz\\PrivateComposerInstaller\\Plugin",
+                "plugin-modifies-downloads": true
+            },
+            "autoload": {
+                "psr-4": {
+                    "FFraenz\\PrivateComposerInstaller\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fränz Friederes",
+                    "email": "fraenz@frieder.es",
+                    "homepage": "https://fraenz.frieder.es"
+                }
+            ],
+            "description": "A composer install helper for private packages",
+            "keywords": [
+                "composer",
+                "env",
+                "plugin",
+                "private",
+                "wordpress",
+                "wp"
+            ],
+            "support": {
+                "issues": "https://github.com/ffraenz/private-composer-installer/issues",
+                "source": "https://github.com/ffraenz/private-composer-installer/tree/v5.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ffraenz",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-10-30T09:35:33+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -5350,6 +5459,7 @@
     "stability-flags": {
         "d4rk0snet/adoption": 20,
         "d4rk0snet/donation": 20,
+        "d4rk0snet/coralguardian": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
