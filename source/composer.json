@@ -36,7 +36,7 @@
     },
     {
       "type" : "vcs",
-      "url": "git@github.com:coralguardian/module-order.git",
+      "url": "git@github.com:coralguardian/module-donation.git",
       "no-api": true
     },
     {
@@ -81,6 +81,7 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
     "d4rk0snet/adoption": "dev-dev",
+    "d4rk0snet/donation": "dev-dev",
     "ext-json": "*"
   },
   "require-dev": {

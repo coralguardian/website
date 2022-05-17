@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "356a08bef284606fe5742d12fdfddc59",
+    "content-hash": "3f762ed49295c3f18daaea00c87801f1",
     "packages": [
         {
             "name": "api2pdf/api2pdf.php",
@@ -252,12 +252,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-adoption.git",
-                "reference": "feb418fb60f7d4654c946988eca3c6815971f67c"
+                "reference": "fb183ff7a9543abf3465597b4c213fa32e6b1d58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-adoption/zipball/feb418fb60f7d4654c946988eca3c6815971f67c",
-                "reference": "feb418fb60f7d4654c946988eca3c6815971f67c",
+                "url": "https://api.github.com/repos/coralguardian/module-adoption/zipball/fb183ff7a9543abf3465597b4c213fa32e6b1d58",
+                "reference": "fb183ff7a9543abf3465597b4c213fa32e6b1d58",
                 "shasum": ""
             },
             "require": {
@@ -285,7 +285,45 @@
                 }
             ],
             "description": "Plugin gérant l'adoption d'un récif ou d'un corail",
-            "time": "2022-05-13T15:28:19+00:00"
+            "time": "2022-05-16T08:48:16+00:00"
+        },
+        {
+            "name": "d4rk0snet/donation",
+            "version": "dev-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:coralguardian/module-donation.git",
+                "reference": "e96db29624c0fe2bb0e287b9c535fb2a686779ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/coralguardian/module-donation/zipball/e96db29624c0fe2bb0e287b9c535fb2a686779ee",
+                "reference": "e96db29624c0fe2bb0e287b9c535fb2a686779ee",
+                "shasum": ""
+            },
+            "require": {
+                "hyperion/doctrine": "dev-dev",
+                "hyperion/restapi": "dev-dev",
+                "hyperion/stripe": "dev-dev",
+                "netresearch/jsonmapper": "^4.0",
+                "ramsey/uuid": "^4.3",
+                "ramsey/uuid-doctrine": "^1.8"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "D4rk0snet\\Donation\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Grégory COLLIN",
+                    "email": "gregory@d4rk0s.net"
+                }
+            ],
+            "description": "Plugin permettant à des personnes de faire un don",
+            "time": "2022-05-17T10:16:12+00:00"
         },
         {
             "name": "d4rk0snet/email",
@@ -293,12 +331,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-email.git",
-                "reference": "40b2c93b122825303226d77ff5fc65a31949c5f8"
+                "reference": "7feffa1a7d677ae0681be153e6e8128db8d34449"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-email/zipball/40b2c93b122825303226d77ff5fc65a31949c5f8",
-                "reference": "40b2c93b122825303226d77ff5fc65a31949c5f8",
+                "url": "https://api.github.com/repos/coralguardian/module-email/zipball/7feffa1a7d677ae0681be153e6e8128db8d34449",
+                "reference": "7feffa1a7d677ae0681be153e6e8128db8d34449",
                 "shasum": ""
             },
             "require": {
@@ -319,7 +357,7 @@
                 }
             ],
             "description": "Plugin gérant le système d'emailing à travers sendinblue",
-            "time": "2022-05-13T15:28:57+00:00"
+            "time": "2022-05-16T10:02:50+00:00"
         },
         {
             "name": "d4rk0snet/fiscalreceipt",
@@ -327,12 +365,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-fiscalreceipt.git",
-                "reference": "2c587154705dda5a2af353f77c30e084d71c6d75"
+                "reference": "ac575c7fdd32fc3fcfceee261370b7076db4586b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-fiscalreceipt/zipball/2c587154705dda5a2af353f77c30e084d71c6d75",
-                "reference": "2c587154705dda5a2af353f77c30e084d71c6d75",
+                "url": "https://api.github.com/repos/coralguardian/module-fiscalreceipt/zipball/ac575c7fdd32fc3fcfceee261370b7076db4586b",
+                "reference": "ac575c7fdd32fc3fcfceee261370b7076db4586b",
                 "shasum": ""
             },
             "require": {
@@ -354,7 +392,7 @@
                 }
             ],
             "description": "Plugin métier pour la gestion des recus fiscaux au sein de l'association de préservation des coraux Coral-Guardian",
-            "time": "2022-05-13T13:38:54+00:00"
+            "time": "2022-05-16T14:29:28+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -4427,16 +4465,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.3.10",
+            "version": "v3.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "8442df056c51b706793adf80a9fd363406dd3674"
+                "reference": "e939eae92386b69b49cfa4599dd9bead6bf4a342"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/8442df056c51b706793adf80a9fd363406dd3674",
-                "reference": "8442df056c51b706793adf80a9fd363406dd3674",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/e939eae92386b69b49cfa4599dd9bead6bf4a342",
+                "reference": "e939eae92386b69b49cfa4599dd9bead6bf4a342",
                 "shasum": ""
             },
             "require": {
@@ -4451,7 +4489,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "3.4-dev"
                 }
             },
             "autoload": {
@@ -4487,7 +4525,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v3.3.10"
+                "source": "https://github.com/twigphp/Twig/tree/v3.4.1"
             },
             "funding": [
                 {
@@ -4499,7 +4537,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-06T06:47:41+00:00"
+            "time": "2022-05-17T05:48:52+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -4765,12 +4803,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "2ed308386e65cafaadd54723f5b57775374c2ae8"
+                "reference": "c491d086242983f784b8af91cbb9de43d3374971"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/2ed308386e65cafaadd54723f5b57775374c2ae8",
-                "reference": "2ed308386e65cafaadd54723f5b57775374c2ae8",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/c491d086242983f784b8af91cbb9de43d3374971",
+                "reference": "c491d086242983f784b8af91cbb9de43d3374971",
                 "shasum": ""
             },
             "conflict": {
@@ -4803,6 +4841,7 @@
                 "bolt/core": "<=4.2",
                 "bottelet/flarepoint": "<2.2.1",
                 "brightlocal/phpwhois": "<=4.2.5",
+                "brotkrueml/codehighlight": "<2.7",
                 "buddypress/buddypress": "<7.2.1",
                 "bugsnag/bugsnag-laravel": ">=2,<2.0.2",
                 "bytefury/crater": "<6.0.2",
@@ -5247,7 +5286,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-11T11:06:18+00:00"
+            "time": "2022-05-16T08:10:11+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -5310,6 +5349,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "d4rk0snet/adoption": 20,
+        "d4rk0snet/donation": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
@@ -5319,5 +5359,5 @@
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.1.0"
 }
