@@ -80,6 +80,16 @@
       "no-api": true
     },
     {
+      "type" : "vcs",
+      "url": "git@github.com:coralguardian/module-giftcode.git",
+      "no-api": true
+    },
+    {
+      "type" : "vcs",
+      "url": "git@github.com:ds-hyperion/sendinblue.git",
+      "no-api": true
+    },
+    {
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -110,7 +120,8 @@
     "d4rk0snet/donation": "dev-dev",
     "ext-json": "*",
     "advanced-custom-fields/advanced-custom-fields-pro": "5.9.*",
-    "d4rk0snet/coralguardian": "dev-dev"
+    "d4rk0snet/coralguardian": "dev-dev",
+    "hyperion/sendinblue": "dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6.2",
