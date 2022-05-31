@@ -15,7 +15,8 @@ RUN apk update && \
     php81-json \
     php81-session \
     php81-tokenizer \
-    php81-zip
+    php81-zip \
+    php81-intl
 EXPOSE 9000
 WORKDIR /app
 
