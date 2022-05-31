@@ -14,11 +14,12 @@ services:
       - bdd
 
   php-fpm:
-    image: bitnami/php-fpm:8.1
+    image: php_greg:latest
     networks:
       - back-tier
     volumes:
       - ./source:/var/www/html
+      - ./php-custom:/etc/php81/php-fpm.d
 
   bdd:
     networks:
