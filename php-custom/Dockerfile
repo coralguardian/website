@@ -1,6 +1,6 @@
 FROM alpine:latest
 RUN apk update && \
-    apk add --no-cache sed bash php81 php81-fpm php81-pecl-imagick \
+    apk add --no-cache sed icu-data-full bash php81 php81-fpm php81-pecl-imagick \
     php81-iconv \
     php81-mysqli \
     php81-mysqlnd \
