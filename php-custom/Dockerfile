@@ -18,7 +18,8 @@ RUN apk update && \
     php81-zip \
     php81-intl \
     php81-simplexml \
-    php81-xml
+    php81-xml \
+    php81-xmlwriter
 EXPOSE 9000
 WORKDIR /app
 
