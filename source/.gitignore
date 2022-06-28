@@ -4,6 +4,7 @@ web/app/plugins/*
 web/app/mu-plugins/*/
 web/app/upgrade
 web/app/uploads/*
+!web/app/uploads/fonts
 !web/app/uploads/.gitkeep
 web/app/cache/*
 
