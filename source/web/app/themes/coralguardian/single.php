@@ -1,7 +1,7 @@
 <?php
 	get_header();
 	$term = get_queried_object();
-	$featuredImage = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+	$featuredImage = isset($post) ? wp_get_attachment_url( get_post_thumbnail_id($post->ID) ) : "";
 	$category = get_the_category();
 	$category_name = isset($category[0]) ? $category[0]->name : 'N.C';
 	$category_link = isset($category[0]) ? get_category_link($category[0]) : '#';
@@ -17,7 +17,9 @@
 		<div class="container">
 			<div class="cg-autor">
 				<?php
-					echo get_avatar( get_the_author_meta( 'user_email' ), $author_bio_avatar_size );
+                if (isset($author_bio_avatar_size)) {
+                    echo get_avatar( get_the_author_meta( 'user_email' ), $author_bio_avatar_size );
+                }
 				?>
 				<?php if(ICL_LANGUAGE_CODE=='fr'): ?>
 					<span class="autor-name"><strong>Publié par <?php echo get_the_author(); ?></strong> | Publié le <?php echo get_the_date(); ?></span>
