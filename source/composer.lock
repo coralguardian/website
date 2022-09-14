@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b1a28f954634c84d8e955566480a22b0",
+    "content-hash": "f5e8ede545af4aa54398a0febc73e419",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -262,12 +262,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-adoption.git",
-                "reference": "491513788ae7a578a6277c0c1734936f726a58ec"
+                "reference": "a4ea7a30c4b052aa6d10f38c3a4d0f3cb962c36f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-adoption/zipball/491513788ae7a578a6277c0c1734936f726a58ec",
-                "reference": "491513788ae7a578a6277c0c1734936f726a58ec",
+                "url": "https://api.github.com/repos/coralguardian/module-adoption/zipball/a4ea7a30c4b052aa6d10f38c3a4d0f3cb962c36f",
+                "reference": "a4ea7a30c4b052aa6d10f38c3a4d0f3cb962c36f",
                 "shasum": ""
             },
             "require": {
@@ -298,7 +298,7 @@
                 }
             ],
             "description": "Plugin gérant l'adoption d'un récif ou d'un corail",
-            "time": "2022-09-13T13:10:28+00:00"
+            "time": "2022-09-14T07:28:15+00:00"
         },
         {
             "name": "d4rk0snet/certificate",
@@ -335,6 +335,36 @@
             ],
             "description": "Plugin de gestion des certificats coral guardian",
             "time": "2022-08-25T08:18:11+00:00"
+        },
+        {
+            "name": "d4rk0snet/coral-order",
+            "version": "dev-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:coralguardian/module-order.git",
+                "reference": "dec35dc944e909998e1e0e8004ea3ba83ec48670"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/coralguardian/module-order/zipball/dec35dc944e909998e1e0e8004ea3ba83ec48670",
+                "reference": "dec35dc944e909998e1e0e8004ea3ba83ec48670",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "D4rk0snet\\CoralOrder\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Grégory COLLIN",
+                    "email": "gregory@d4rk0s.net"
+                }
+            ],
+            "description": "Plugin métier pour la gestion des commandes/paiement au sein de l'association de préservation des coraux Coral-Guardian",
+            "time": "2022-09-14T13:06:55+00:00"
         },
         {
             "name": "d4rk0snet/coralguardian",
@@ -6258,6 +6288,7 @@
     "stability-flags": {
         "d4rk0snet/adoption": 20,
         "d4rk0snet/donation": 20,
+        "d4rk0snet/coral-order": 20,
         "d4rk0snet/coralguardian": 20,
         "hyperion/sendinblue": 20,
         "roave/security-advisories": 20

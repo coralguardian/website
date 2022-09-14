@@ -90,6 +90,11 @@
       "no-api": true
     },
     {
+      "type" : "vcs",
+      "url": "git@github.com:coralguardian/module-order.git",
+      "no-api": true
+    },
+    {
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
