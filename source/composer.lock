@@ -262,16 +262,17 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-adoption.git",
-                "reference": "a4ea7a30c4b052aa6d10f38c3a4d0f3cb962c36f"
+                "reference": "50a7ee8a120f8d0197e82d55568f1403554f6819"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-adoption/zipball/a4ea7a30c4b052aa6d10f38c3a4d0f3cb962c36f",
-                "reference": "a4ea7a30c4b052aa6d10f38c3a4d0f3cb962c36f",
+                "url": "https://api.github.com/repos/coralguardian/module-adoption/zipball/50a7ee8a120f8d0197e82d55568f1403554f6819",
+                "reference": "50a7ee8a120f8d0197e82d55568f1403554f6819",
                 "shasum": ""
             },
             "require": {
                 "d4rk0snet/certificate": "dev-dev",
+                "d4rk0snet/coral-order": "dev-dev",
                 "d4rk0snet/fiscalreceipt": "dev-dev",
                 "d4rk0snet/gift-code": "dev-dev",
                 "d4rk0snet/naming-file-import": "dev-dev",
@@ -298,7 +299,7 @@
                 }
             ],
             "description": "Plugin gérant l'adoption d'un récif ou d'un corail",
-            "time": "2022-09-14T07:28:15+00:00"
+            "time": "2022-09-19T09:43:17+00:00"
         },
         {
             "name": "d4rk0snet/certificate",
@@ -342,13 +343,18 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-order.git",
-                "reference": "dec35dc944e909998e1e0e8004ea3ba83ec48670"
+                "reference": "98421f2cae669618eed084c0b3f2d05d9e7cdea8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-order/zipball/dec35dc944e909998e1e0e8004ea3ba83ec48670",
-                "reference": "dec35dc944e909998e1e0e8004ea3ba83ec48670",
+                "url": "https://api.github.com/repos/coralguardian/module-order/zipball/98421f2cae669618eed084c0b3f2d05d9e7cdea8",
+                "reference": "98421f2cae669618eed084c0b3f2d05d9e7cdea8",
                 "shasum": ""
+            },
+            "require": {
+                "hyperion/restapi": "dev-dev",
+                "hyperion/stripe": "dev-dev",
+                "netresearch/jsonmapper": "4.*"
             },
             "default-branch": true,
             "type": "wordpress-plugin",
@@ -364,7 +370,7 @@
                 }
             ],
             "description": "Plugin métier pour la gestion des commandes/paiement au sein de l'association de préservation des coraux Coral-Guardian",
-            "time": "2022-09-14T13:06:55+00:00"
+            "time": "2022-09-19T09:39:23+00:00"
         },
         {
             "name": "d4rk0snet/coralguardian",
@@ -372,12 +378,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-coralguardian.git",
-                "reference": "0d249461a12c0b4cdcebbfa3d0c1668de8a834a8"
+                "reference": "ccf1e5517784a1b2944ea09b06d105631dbb9e39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-coralguardian/zipball/0d249461a12c0b4cdcebbfa3d0c1668de8a834a8",
-                "reference": "0d249461a12c0b4cdcebbfa3d0c1668de8a834a8",
+                "url": "https://api.github.com/repos/coralguardian/module-coralguardian/zipball/ccf1e5517784a1b2944ea09b06d105631dbb9e39",
+                "reference": "ccf1e5517784a1b2944ea09b06d105631dbb9e39",
                 "shasum": ""
             },
             "require": {
@@ -396,7 +402,7 @@
                     "email": "gregory@d4rk0s.net"
                 }
             ],
-            "time": "2022-09-13T14:23:37+00:00"
+            "time": "2022-09-19T09:45:14+00:00"
         },
         {
             "name": "d4rk0snet/donation",
@@ -404,12 +410,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-donation.git",
-                "reference": "b0a765cad42e1bb4581781124a1e28f366eccd7d"
+                "reference": "2afb395afa73d4d2f6d08ee3c966394c0b705db7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-donation/zipball/b0a765cad42e1bb4581781124a1e28f366eccd7d",
-                "reference": "b0a765cad42e1bb4581781124a1e28f366eccd7d",
+                "url": "https://api.github.com/repos/coralguardian/module-donation/zipball/2afb395afa73d4d2f6d08ee3c966394c0b705db7",
+                "reference": "2afb395afa73d4d2f6d08ee3c966394c0b705db7",
                 "shasum": ""
             },
             "require": {
@@ -434,7 +440,7 @@
                 }
             ],
             "description": "Plugin permettant à des personnes de faire un don",
-            "time": "2022-09-13T12:05:35+00:00"
+            "time": "2022-09-19T09:53:14+00:00"
         },
         {
             "name": "d4rk0snet/fiscalreceipt",
@@ -478,12 +484,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-giftcode.git",
-                "reference": "dfa932011ece55993b1f847787983f49bc9c9fc0"
+                "reference": "05526b17e833fe5aa945cfcbd543ea49309b3e33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-giftcode/zipball/dfa932011ece55993b1f847787983f49bc9c9fc0",
-                "reference": "dfa932011ece55993b1f847787983f49bc9c9fc0",
+                "url": "https://api.github.com/repos/coralguardian/module-giftcode/zipball/05526b17e833fe5aa945cfcbd543ea49309b3e33",
+                "reference": "05526b17e833fe5aa945cfcbd543ea49309b3e33",
                 "shasum": ""
             },
             "default-branch": true,
@@ -499,7 +505,7 @@
                     "email": "gregory@d4rk0s.net"
                 }
             ],
-            "time": "2022-07-08T15:11:11+00:00"
+            "time": "2022-09-19T09:39:06+00:00"
         },
         {
             "name": "d4rk0snet/naming-file-import",
@@ -1546,20 +1552,30 @@
         },
         {
             "name": "ezyang/htmlpurifier",
-            "version": "v4.14.0",
+            "version": "v4.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezyang/htmlpurifier.git",
-                "reference": "12ab42bd6e742c70c0a52f7b82477fcd44e64b75"
+                "reference": "523407fb06eb9e5f3d59889b3978d5bfe94299c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/12ab42bd6e742c70c0a52f7b82477fcd44e64b75",
-                "reference": "12ab42bd6e742c70c0a52f7b82477fcd44e64b75",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/523407fb06eb9e5f3d59889b3978d5bfe94299c8",
+                "reference": "523407fb06eb9e5f3d59889b3978d5bfe94299c8",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.2"
+                "php": "~5.6.0 || ~7.0.0 || ~7.1.0 || ~7.2.0 || ~7.3.0 || ~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0"
+            },
+            "require-dev": {
+                "cerdic/css-tidy": "^1.7 || ^2.0",
+                "simpletest/simpletest": "dev-master"
+            },
+            "suggest": {
+                "cerdic/css-tidy": "If you want to use the filter 'Filter.ExtractStyleBlocks'.",
+                "ext-bcmath": "Used for unit conversion and imagecrash protection",
+                "ext-iconv": "Converts text to and from non-UTF-8 encodings",
+                "ext-tidy": "Used for pretty-printing HTML"
             },
             "type": "library",
             "autoload": {
@@ -1591,9 +1607,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ezyang/htmlpurifier/issues",
-                "source": "https://github.com/ezyang/htmlpurifier/tree/v4.14.0"
+                "source": "https://github.com/ezyang/htmlpurifier/tree/v4.16.0"
             },
-            "time": "2021-12-25T01:21:49+00:00"
+            "time": "2022-09-18T07:06:19+00:00"
         },
         {
             "name": "ffraenz/private-composer-installer",
@@ -2196,12 +2212,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ds-hyperion/stripe.git",
-                "reference": "3292965158ff9e0563396aadf2d24057af78ccd4"
+                "reference": "a2a5009e03668af97644088ba98203d2805e27eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ds-hyperion/stripe/zipball/3292965158ff9e0563396aadf2d24057af78ccd4",
-                "reference": "3292965158ff9e0563396aadf2d24057af78ccd4",
+                "url": "https://api.github.com/repos/ds-hyperion/stripe/zipball/a2a5009e03668af97644088ba98203d2805e27eb",
+                "reference": "a2a5009e03668af97644088ba98203d2805e27eb",
                 "shasum": ""
             },
             "require": {
@@ -2221,7 +2237,7 @@
                     "email": "gregory@d4rk0s.net"
                 }
             ],
-            "time": "2022-09-13T16:55:38+00:00"
+            "time": "2022-09-15T19:02:12+00:00"
         },
         {
             "name": "maennchen/zipstream-php",
@@ -3430,20 +3446,20 @@
         },
         {
             "name": "ramsey/uuid",
-            "version": "4.4.0",
+            "version": "4.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "373f7bacfcf3de038778ff27dcce5672ddbf4c8a"
+                "reference": "a161a26d917604dc6d3aa25100fddf2556e9f35d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/373f7bacfcf3de038778ff27dcce5672ddbf4c8a",
-                "reference": "373f7bacfcf3de038778ff27dcce5672ddbf4c8a",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/a161a26d917604dc6d3aa25100fddf2556e9f35d",
+                "reference": "a161a26d917604dc6d3aa25100fddf2556e9f35d",
                 "shasum": ""
             },
             "require": {
-                "brick/math": "^0.8 || ^0.9 || ^0.10",
+                "brick/math": "^0.8.8 || ^0.9 || ^0.10",
                 "ext-ctype": "*",
                 "ext-json": "*",
                 "php": "^8.0",
@@ -3464,12 +3480,13 @@
                 "php-mock/php-mock-mockery": "^1.3",
                 "php-parallel-lint/php-parallel-lint": "^1.1",
                 "phpbench/phpbench": "^1.0",
-                "phpstan/extension-installer": "^1.0",
-                "phpstan/phpstan": "^0.12",
-                "phpstan/phpstan-mockery": "^0.12",
-                "phpstan/phpstan-phpunit": "^0.12",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan": "^1.8",
+                "phpstan/phpstan-mockery": "^1.1",
+                "phpstan/phpstan-phpunit": "^1.1",
                 "phpunit/phpunit": "^8.5 || ^9",
-                "slevomat/coding-standard": "^7.0",
+                "ramsey/composer-repl": "^1.4",
+                "slevomat/coding-standard": "^8.4",
                 "squizlabs/php_codesniffer": "^3.5",
                 "vimeo/psalm": "^4.9"
             },
@@ -3507,7 +3524,7 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/uuid/issues",
-                "source": "https://github.com/ramsey/uuid/tree/4.4.0"
+                "source": "https://github.com/ramsey/uuid/tree/4.5.1"
             },
             "funding": [
                 {
@@ -3519,7 +3536,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-08-05T17:58:37+00:00"
+            "time": "2022-09-16T03:22:46+00:00"
         },
         {
             "name": "ramsey/uuid-doctrine",
@@ -4101,16 +4118,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v9.5.0",
+            "version": "v9.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "e3ea7f8ea7d6e96ef4253e3c5290d548fb89835c"
+                "reference": "7c43066015d03ad9c4458db683ecfe019ce225da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/e3ea7f8ea7d6e96ef4253e3c5290d548fb89835c",
-                "reference": "e3ea7f8ea7d6e96ef4253e3c5290d548fb89835c",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/7c43066015d03ad9c4458db683ecfe019ce225da",
+                "reference": "7c43066015d03ad9c4458db683ecfe019ce225da",
                 "shasum": ""
             },
             "require": {
@@ -4156,9 +4173,9 @@
             ],
             "support": {
                 "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v9.5.0"
+                "source": "https://github.com/stripe/stripe-php/tree/v9.6.0"
             },
-            "time": "2022-09-06T21:09:15+00:00"
+            "time": "2022-09-15T19:45:46+00:00"
         },
         {
             "name": "symfony/cache",
@@ -5712,12 +5729,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "5cf4af16905d08d88c26fbcdf929a8f53e0780da"
+                "reference": "264a5085afd6e127daba3f47751fa971d3c29c3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/5cf4af16905d08d88c26fbcdf929a8f53e0780da",
-                "reference": "5cf4af16905d08d88c26fbcdf929a8f53e0780da",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/264a5085afd6e127daba3f47751fa971d3c29c3d",
+                "reference": "264a5085afd6e127daba3f47751fa971d3c29c3d",
                 "shasum": ""
             },
             "conflict": {
@@ -5810,6 +5827,8 @@
                 "enshrined/svg-sanitize": "<0.15",
                 "erusev/parsedown": "<1.7.2",
                 "ether/logs": "<3.0.4",
+                "exceedone/exment": "<4.4.3|>=5,<5.0.3",
+                "exceedone/laravel-admin": "= 3.0.0|<2.2.3",
                 "ezsystems/demobundle": ">=5.4,<5.4.6.1",
                 "ezsystems/ez-support-tools": ">=2.2,<2.2.3",
                 "ezsystems/ezdemo-ls-extension": ">=5.4,<5.4.2.1",
@@ -5842,13 +5861,13 @@
                 "fooman/tcpdf": "<6.2.22",
                 "forkcms/forkcms": "<5.11.1",
                 "fossar/tcpdf-parser": "<6.2.22",
-                "francoisjacquet/rosariosis": "<9.1",
+                "francoisjacquet/rosariosis": "<10.1",
                 "friendsofsymfony/oauth2-php": "<1.3",
                 "friendsofsymfony/rest-bundle": ">=1.2,<1.2.2",
                 "friendsofsymfony/user-bundle": ">=1.2,<1.3.5",
                 "friendsoftypo3/mediace": ">=7.6.2,<7.6.5",
                 "froala/wysiwyg-editor": "<3.2.7",
-                "froxlor/froxlor": "<=0.10.22",
+                "froxlor/froxlor": "<0.10.38",
                 "fuel/core": "<1.8.1",
                 "gaoming13/wechat-php-sdk": "<=1.10.2",
                 "genix/cms": "<=1.1.11",
@@ -5992,7 +6011,7 @@
                 "phpwhois/phpwhois": "<=4.2.5",
                 "phpxmlrpc/extras": "<0.6.1",
                 "pimcore/data-hub": "<1.2.4",
-                "pimcore/pimcore": "<10.4.4",
+                "pimcore/pimcore": "<10.5.6",
                 "pocketmine/bedrock-protocol": "<8.0.2",
                 "pocketmine/pocketmine-mp": "<4.7.2|>= 4.0.0-BETA5, < 4.4.2",
                 "pressbooks/pressbooks": "<5.18",
@@ -6013,6 +6032,8 @@
                 "pusher/pusher-php-server": "<2.2.1",
                 "pwweb/laravel-core": "<=0.3.6-beta",
                 "rainlab/debugbar-plugin": "<3.1",
+                "rankmath/seo-by-rank-math": "<=1.0.95",
+                "react/http": ">=0.7,<1.7",
                 "remdex/livehelperchat": "<3.99",
                 "rmccue/requests": ">=1.6,<1.8",
                 "robrichards/xmlseclibs": "<3.0.4",
@@ -6027,7 +6048,7 @@
                 "shopware/core": "<=6.4.9",
                 "shopware/platform": "<=6.4.9",
                 "shopware/production": "<=6.3.5.2",
-                "shopware/shopware": "<=5.7.13",
+                "shopware/shopware": "<=5.7.14",
                 "shopware/storefront": "<=6.4.8.1",
                 "shopxo/shopxo": "<2.2.6",
                 "showdoc/showdoc": "<2.10.4",
@@ -6051,8 +6072,8 @@
                 "simplesamlphp/simplesamlphp-module-infocard": "<1.0.1",
                 "simplito/elliptic-php": "<1.0.6",
                 "slim/slim": "<2.6",
-                "smarty/smarty": "<3.1.45|>=4,<4.1.1",
-                "snipe/snipe-it": "<6.0.10|>= 6.0.0-RC-1, <= 6.0.0-RC-5",
+                "smarty/smarty": "<3.1.47|>=4,<4.2.1",
+                "snipe/snipe-it": "<6.0.11|>= 6.0.0-RC-1, <= 6.0.0-RC-5",
                 "socalnick/scn-social-auth": "<1.15.2",
                 "socialiteproviders/steam": "<1.1",
                 "spipu/html2pdf": "<5.2.4",
@@ -6114,7 +6135,7 @@
                 "thinkcmf/thinkcmf": "<=5.1.7",
                 "tinymce/tinymce": "<5.10",
                 "titon/framework": ">=0,<9.9.99",
-                "topthink/framework": "<=6.0.12",
+                "topthink/framework": "<=6.0.13",
                 "topthink/think": "<=6.0.9",
                 "topthink/thinkphp": "<=3.2.3",
                 "tribalsystems/zenario": "<9.2.55826",
@@ -6122,7 +6143,7 @@
                 "twig/twig": "<1.38|>=2,<2.14.11|>=3,<3.3.8",
                 "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.38|>=9,<9.5.29|>=10,<10.4.32|>=11,<11.5.16",
                 "typo3/cms-backend": ">=7,<=7.6.50|>=8,<=8.7.39|>=9,<=9.5.24|>=10,<=10.4.13|>=11,<=11.1",
-                "typo3/cms-core": ">=6.2,<=6.2.56|>=7,<7.6.57|>=8,<8.7.47|>=9,<9.5.35|>=10,<10.4.32|>=11,<11.5.16",
+                "typo3/cms-core": ">=6.2,<=6.2.56|>=7,<7.6.58|>=8,<8.7.48|>=9,<9.5.37|>=10,<10.4.32|>=11,<11.5.16",
                 "typo3/cms-form": ">=8,<=8.7.39|>=9,<=9.5.24|>=10,<=10.4.13|>=11,<=11.1",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.12|>=3.1,<3.1.10|>=3.2,<3.2.13|>=3.3,<3.3.13|>=4,<4.0.6",
                 "typo3/html-sanitizer": ">=1,<1.0.7|>=2,<2.0.16",
@@ -6131,7 +6152,7 @@
                 "typo3/swiftmailer": ">=4.1,<4.1.99|>=5.4,<5.4.5",
                 "typo3fluid/fluid": ">=2,<2.0.8|>=2.1,<2.1.7|>=2.2,<2.2.4|>=2.3,<2.3.7|>=2.4,<2.4.4|>=2.5,<2.5.11|>=2.6,<2.6.10",
                 "ua-parser/uap-php": "<3.8",
-                "unisharp/laravel-filemanager": "<=2.3",
+                "unisharp/laravel-filemanager": "<=2.5.1",
                 "userfrosting/userfrosting": ">=0.3.1,<4.6.3",
                 "usmanhalalit/pixie": "<1.0.3|>=2,<2.0.2",
                 "vanilla/safecurl": "<0.9.2",
@@ -6224,7 +6245,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-09-13T13:19:06+00:00"
+            "time": "2022-09-16T22:04:31+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
