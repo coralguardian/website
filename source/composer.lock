@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5e8ede545af4aa54398a0febc73e419",
+    "content-hash": "1d2d428b494ff00e642d975cd6f7d72c",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -262,12 +262,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-adoption.git",
-                "reference": "50a7ee8a120f8d0197e82d55568f1403554f6819"
+                "reference": "9ee79d7dc4db267524dea4fe26029341a3921bec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-adoption/zipball/50a7ee8a120f8d0197e82d55568f1403554f6819",
-                "reference": "50a7ee8a120f8d0197e82d55568f1403554f6819",
+                "url": "https://api.github.com/repos/coralguardian/module-adoption/zipball/9ee79d7dc4db267524dea4fe26029341a3921bec",
+                "reference": "9ee79d7dc4db267524dea4fe26029341a3921bec",
                 "shasum": ""
             },
             "require": {
@@ -299,7 +299,7 @@
                 }
             ],
             "description": "Plugin gérant l'adoption d'un récif ou d'un corail",
-            "time": "2022-09-19T09:43:17+00:00"
+            "time": "2022-09-28T14:59:51+00:00"
         },
         {
             "name": "d4rk0snet/certificate",
@@ -307,12 +307,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-certificate.git",
-                "reference": "e1b3d07a93fb08562eb813256ffa67af480a3a0a"
+                "reference": "21b97adc879098cfc554d92bdff22e9dd47e94a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-certificate/zipball/e1b3d07a93fb08562eb813256ffa67af480a3a0a",
-                "reference": "e1b3d07a93fb08562eb813256ffa67af480a3a0a",
+                "url": "https://api.github.com/repos/coralguardian/module-certificate/zipball/21b97adc879098cfc554d92bdff22e9dd47e94a6",
+                "reference": "21b97adc879098cfc554d92bdff22e9dd47e94a6",
                 "shasum": ""
             },
             "require": {
@@ -335,7 +335,39 @@
                 }
             ],
             "description": "Plugin de gestion des certificats coral guardian",
-            "time": "2022-08-25T08:18:11+00:00"
+            "time": "2022-09-27T07:39:22+00:00"
+        },
+        {
+            "name": "d4rk0snet/coral-customer",
+            "version": "dev-dev",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:coralguardian/module-customer.git",
+                "reference": "a3615129c993dab3f02e6f2f097813c85f6e37fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/coralguardian/module-customer/zipball/a3615129c993dab3f02e6f2f097813c85f6e37fe",
+                "reference": "a3615129c993dab3f02e6f2f097813c85f6e37fe",
+                "shasum": ""
+            },
+            "require": {
+                "hyperion/doctrine": "dev-dev"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "D4rk0snet\\CoralCustomer\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "d4rk0s",
+                    "email": "gregory@d4rk0s.net"
+                }
+            ],
+            "description": "Plugin métier pour la gestion des customers au sein de l'association de préservation des coraux Coral-Guardian",
+            "time": "2022-09-22T15:17:31+00:00"
         },
         {
             "name": "d4rk0snet/coral-order",
@@ -343,12 +375,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-order.git",
-                "reference": "98421f2cae669618eed084c0b3f2d05d9e7cdea8"
+                "reference": "f42aca36b2c55673048d3d7566c093f60aed1a63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-order/zipball/98421f2cae669618eed084c0b3f2d05d9e7cdea8",
-                "reference": "98421f2cae669618eed084c0b3f2d05d9e7cdea8",
+                "url": "https://api.github.com/repos/coralguardian/module-order/zipball/f42aca36b2c55673048d3d7566c093f60aed1a63",
+                "reference": "f42aca36b2c55673048d3d7566c093f60aed1a63",
                 "shasum": ""
             },
             "require": {
@@ -370,7 +402,7 @@
                 }
             ],
             "description": "Plugin métier pour la gestion des commandes/paiement au sein de l'association de préservation des coraux Coral-Guardian",
-            "time": "2022-09-19T09:39:23+00:00"
+            "time": "2022-09-28T14:59:51+00:00"
         },
         {
             "name": "d4rk0snet/coralguardian",
@@ -378,12 +410,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-coralguardian.git",
-                "reference": "ccf1e5517784a1b2944ea09b06d105631dbb9e39"
+                "reference": "11dd7f1ac6e55e36d6b63823f43601d57f3a5ba6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-coralguardian/zipball/ccf1e5517784a1b2944ea09b06d105631dbb9e39",
-                "reference": "ccf1e5517784a1b2944ea09b06d105631dbb9e39",
+                "url": "https://api.github.com/repos/coralguardian/module-coralguardian/zipball/11dd7f1ac6e55e36d6b63823f43601d57f3a5ba6",
+                "reference": "11dd7f1ac6e55e36d6b63823f43601d57f3a5ba6",
                 "shasum": ""
             },
             "require": {
@@ -402,7 +434,7 @@
                     "email": "gregory@d4rk0s.net"
                 }
             ],
-            "time": "2022-09-19T09:45:14+00:00"
+            "time": "2022-09-28T11:51:34+00:00"
         },
         {
             "name": "d4rk0snet/donation",
@@ -410,12 +442,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-donation.git",
-                "reference": "2afb395afa73d4d2f6d08ee3c966394c0b705db7"
+                "reference": "fbaca5706f0db448e2d0236e27f9768d6c60f118"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-donation/zipball/2afb395afa73d4d2f6d08ee3c966394c0b705db7",
-                "reference": "2afb395afa73d4d2f6d08ee3c966394c0b705db7",
+                "url": "https://api.github.com/repos/coralguardian/module-donation/zipball/fbaca5706f0db448e2d0236e27f9768d6c60f118",
+                "reference": "fbaca5706f0db448e2d0236e27f9768d6c60f118",
                 "shasum": ""
             },
             "require": {
@@ -440,7 +472,7 @@
                 }
             ],
             "description": "Plugin permettant à des personnes de faire un don",
-            "time": "2022-09-19T09:53:14+00:00"
+            "time": "2022-09-28T14:20:03+00:00"
         },
         {
             "name": "d4rk0snet/fiscalreceipt",
@@ -448,12 +480,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-fiscalreceipt.git",
-                "reference": "a2ae9bbb401e3d09bfd420079cd2cc59d1455073"
+                "reference": "20c0891e54eadb88eb98beb24d81fa39c4f05a83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-fiscalreceipt/zipball/a2ae9bbb401e3d09bfd420079cd2cc59d1455073",
-                "reference": "a2ae9bbb401e3d09bfd420079cd2cc59d1455073",
+                "url": "https://api.github.com/repos/coralguardian/module-fiscalreceipt/zipball/20c0891e54eadb88eb98beb24d81fa39c4f05a83",
+                "reference": "20c0891e54eadb88eb98beb24d81fa39c4f05a83",
                 "shasum": ""
             },
             "require": {
@@ -476,7 +508,7 @@
                 }
             ],
             "description": "Plugin métier pour la gestion des recus fiscaux au sein de l'association de préservation des coraux Coral-Guardian",
-            "time": "2022-06-20T14:03:11+00:00"
+            "time": "2022-09-19T13:48:58+00:00"
         },
         {
             "name": "d4rk0snet/gift-code",
@@ -484,12 +516,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-giftcode.git",
-                "reference": "05526b17e833fe5aa945cfcbd543ea49309b3e33"
+                "reference": "18e99d2d7214d6c683ce6793c6048c2628863247"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-giftcode/zipball/05526b17e833fe5aa945cfcbd543ea49309b3e33",
-                "reference": "05526b17e833fe5aa945cfcbd543ea49309b3e33",
+                "url": "https://api.github.com/repos/coralguardian/module-giftcode/zipball/18e99d2d7214d6c683ce6793c6048c2628863247",
+                "reference": "18e99d2d7214d6c683ce6793c6048c2628863247",
                 "shasum": ""
             },
             "default-branch": true,
@@ -505,7 +537,7 @@
                     "email": "gregory@d4rk0s.net"
                 }
             ],
-            "time": "2022-09-19T09:39:06+00:00"
+            "time": "2022-09-26T09:27:28+00:00"
         },
         {
             "name": "d4rk0snet/naming-file-import",
@@ -513,12 +545,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:coralguardian/module-naming_file_import.git",
-                "reference": "2de1e1be0f03e01a1112a6afae97ca537a58d4c1"
+                "reference": "528dce5b113cbf990ac2b86750a25b59610ee044"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-naming_file_import/zipball/2de1e1be0f03e01a1112a6afae97ca537a58d4c1",
-                "reference": "2de1e1be0f03e01a1112a6afae97ca537a58d4c1",
+                "url": "https://api.github.com/repos/coralguardian/module-naming_file_import/zipball/528dce5b113cbf990ac2b86750a25b59610ee044",
+                "reference": "528dce5b113cbf990ac2b86750a25b59610ee044",
                 "shasum": ""
             },
             "require": {
@@ -539,7 +571,7 @@
                     "email": "gregory@d4rk0s.net"
                 }
             ],
-            "time": "2022-06-28T09:22:55+00:00"
+            "time": "2022-09-20T09:44:39+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -779,16 +811,16 @@
         },
         {
             "name": "doctrine/common",
-            "version": "3.4.0",
+            "version": "3.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "e09556bbdf95b8420e649162b19ae9da2d1a80f3"
+                "reference": "609c3a7b6af49a7b4b13945ca2fdf4af801946af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/e09556bbdf95b8420e649162b19ae9da2d1a80f3",
-                "reference": "e09556bbdf95b8420e649162b19ae9da2d1a80f3",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/609c3a7b6af49a7b4b13945ca2fdf4af801946af",
+                "reference": "609c3a7b6af49a7b4b13945ca2fdf4af801946af",
                 "shasum": ""
             },
             "require": {
@@ -796,13 +828,13 @@
                 "php": "^7.1 || ^8.0"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^9.0",
+                "doctrine/coding-standard": "^9.0 || ^10.0",
                 "doctrine/collections": "^1",
                 "phpstan/phpstan": "^1.4.1",
                 "phpstan/phpstan-phpunit": "^1",
                 "phpunit/phpunit": "^7.5.20 || ^8.5 || ^9.0",
                 "squizlabs/php_codesniffer": "^3.0",
-                "symfony/phpunit-bridge": "^4.0.5",
+                "symfony/phpunit-bridge": "^6.1",
                 "vimeo/psalm": "^4.4"
             },
             "type": "library",
@@ -850,7 +882,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/common/issues",
-                "source": "https://github.com/doctrine/common/tree/3.4.0"
+                "source": "https://github.com/doctrine/common/tree/3.4.2"
             },
             "funding": [
                 {
@@ -866,20 +898,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-08-23T19:46:56+00:00"
+            "time": "2022-09-28T14:20:50+00:00"
         },
         {
             "name": "doctrine/dbal",
-            "version": "3.4.4",
+            "version": "3.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "4cbbe6e4b9ef6c69d5f4c968c637476f47bb54f5"
+                "reference": "a5a58773109c0abb13e658c8ccd92aeec8d07f9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/4cbbe6e4b9ef6c69d5f4c968c637476f47bb54f5",
-                "reference": "4cbbe6e4b9ef6c69d5f4c968c637476f47bb54f5",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/a5a58773109c0abb13e658c8ccd92aeec8d07f9e",
+                "reference": "a5a58773109c0abb13e658c8ccd92aeec8d07f9e",
                 "shasum": ""
             },
             "require": {
@@ -961,7 +993,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/dbal/issues",
-                "source": "https://github.com/doctrine/dbal/tree/3.4.4"
+                "source": "https://github.com/doctrine/dbal/tree/3.4.5"
             },
             "funding": [
                 {
@@ -977,7 +1009,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-09-01T21:26:42+00:00"
+            "time": "2022-09-23T17:48:57+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -1352,16 +1384,16 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "2.13.1",
+            "version": "2.13.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/orm.git",
-                "reference": "35c44a56677adb3ce796138b6e4934ce93ec6811"
+                "reference": "a8b02fd70fa777ca8278b9604fdef75c15c6a12f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/orm/zipball/35c44a56677adb3ce796138b6e4934ce93ec6811",
-                "reference": "35c44a56677adb3ce796138b6e4934ce93ec6811",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/a8b02fd70fa777ca8278b9604fdef75c15c6a12f",
+                "reference": "a8b02fd70fa777ca8278b9604fdef75c15c6a12f",
                 "shasum": ""
             },
             "require": {
@@ -1388,15 +1420,15 @@
             },
             "require-dev": {
                 "doctrine/annotations": "^1.13",
-                "doctrine/coding-standard": "^9.0",
+                "doctrine/coding-standard": "^9.0.2 || ^10.0",
                 "phpbench/phpbench": "^0.16.10 || ^1.0",
-                "phpstan/phpstan": "~1.4.10 || 1.8.2",
+                "phpstan/phpstan": "~1.4.10 || 1.8.5",
                 "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
                 "psr/log": "^1 || ^2 || ^3",
                 "squizlabs/php_codesniffer": "3.7.1",
                 "symfony/cache": "^4.4 || ^5.4 || ^6.0",
                 "symfony/yaml": "^3.4 || ^4.0 || ^5.0 || ^6.0",
-                "vimeo/psalm": "4.26.0"
+                "vimeo/psalm": "4.27.0"
             },
             "suggest": {
                 "ext-dom": "Provides support for XSD validation for XML mapping files",
@@ -1446,9 +1478,9 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/orm/issues",
-                "source": "https://github.com/doctrine/orm/tree/2.13.1"
+                "source": "https://github.com/doctrine/orm/tree/2.13.2"
             },
-            "time": "2022-08-08T09:00:16+00:00"
+            "time": "2022-09-22T13:36:43+00:00"
         },
         {
             "name": "doctrine/persistence",
@@ -2212,12 +2244,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:ds-hyperion/stripe.git",
-                "reference": "a2a5009e03668af97644088ba98203d2805e27eb"
+                "reference": "ef4eb507871c99d626cd2748c1e006d98093aad5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ds-hyperion/stripe/zipball/a2a5009e03668af97644088ba98203d2805e27eb",
-                "reference": "a2a5009e03668af97644088ba98203d2805e27eb",
+                "url": "https://api.github.com/repos/ds-hyperion/stripe/zipball/ef4eb507871c99d626cd2748c1e006d98093aad5",
+                "reference": "ef4eb507871c99d626cd2748c1e006d98093aad5",
                 "shasum": ""
             },
             "require": {
@@ -2237,7 +2269,7 @@
                     "email": "gregory@d4rk0s.net"
                 }
             ],
-            "time": "2022-09-15T19:02:12+00:00"
+            "time": "2022-09-21T10:02:22+00:00"
         },
         {
             "name": "maennchen/zipstream-php",
@@ -2781,16 +2813,16 @@
         },
         {
             "name": "phpoffice/phpspreadsheet",
-            "version": "1.24.1",
+            "version": "1.25.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPOffice/PhpSpreadsheet.git",
-                "reference": "69991111e05fca3ff7398e1e7fca9ebed33efec6"
+                "reference": "a317a09e7def49852400a4b3eca4a4b0790ceeb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/69991111e05fca3ff7398e1e7fca9ebed33efec6",
-                "reference": "69991111e05fca3ff7398e1e7fca9ebed33efec6",
+                "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/a317a09e7def49852400a4b3eca4a4b0790ceeb5",
+                "reference": "a317a09e7def49852400a4b3eca4a4b0790ceeb5",
                 "shasum": ""
             },
             "require": {
@@ -2807,33 +2839,34 @@
                 "ext-xmlwriter": "*",
                 "ext-zip": "*",
                 "ext-zlib": "*",
-                "ezyang/htmlpurifier": "^4.13",
+                "ezyang/htmlpurifier": "^4.15",
                 "maennchen/zipstream-php": "^2.1",
                 "markbaker/complex": "^3.0",
                 "markbaker/matrix": "^3.0",
                 "php": "^7.3 || ^8.0",
                 "psr/http-client": "^1.0",
                 "psr/http-factory": "^1.0",
-                "psr/simple-cache": "^1.0 || ^2.0"
+                "psr/simple-cache": "^1.0 || ^2.0 || ^3.0"
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "dev-master",
                 "dompdf/dompdf": "^1.0 || ^2.0",
                 "friendsofphp/php-cs-fixer": "^3.2",
-                "jpgraph/jpgraph": "^4.0",
+                "mitoteam/jpgraph": "10.2.4",
                 "mpdf/mpdf": "8.1.1",
                 "phpcompatibility/php-compatibility": "^9.3",
                 "phpstan/phpstan": "^1.1",
                 "phpstan/phpstan-phpunit": "^1.0",
                 "phpunit/phpunit": "^8.5 || ^9.0",
                 "squizlabs/php_codesniffer": "^3.7",
-                "tecnickcom/tcpdf": "^6.4"
+                "tecnickcom/tcpdf": "6.5"
             },
             "suggest": {
-                "dompdf/dompdf": "Option for rendering PDF with PDF Writer (doesn't yet support PHP8)",
-                "jpgraph/jpgraph": "Option for rendering charts, or including charts with PDF or HTML Writers",
+                "dompdf/dompdf": "Option for rendering PDF with PDF Writer",
+                "ext-intl": "PHP Internationalization Functions",
+                "mitoteam/jpgraph": "Option for rendering charts, or including charts with PDF or HTML Writers",
                 "mpdf/mpdf": "Option for rendering PDF with PDF Writer",
-                "tecnickcom/tcpdf": "Option for rendering PDF with PDF Writer (doesn't yet support PHP8)"
+                "tecnickcom/tcpdf": "Option for rendering PDF with PDF Writer"
             },
             "type": "library",
             "autoload": {
@@ -2879,9 +2912,9 @@
             ],
             "support": {
                 "issues": "https://github.com/PHPOffice/PhpSpreadsheet/issues",
-                "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/1.24.1"
+                "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/1.25.2"
             },
-            "time": "2022-07-18T19:50:48+00:00"
+            "time": "2022-09-25T17:21:01+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -3272,16 +3305,16 @@
         },
         {
             "name": "psr/simple-cache",
-            "version": "2.0.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/simple-cache.git",
-                "reference": "8707bf3cea6f710bf6ef05491234e3ab06f6432a"
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/8707bf3cea6f710bf6ef05491234e3ab06f6432a",
-                "reference": "8707bf3cea6f710bf6ef05491234e3ab06f6432a",
+                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/764e0b3939f5ca87cb904f570ef9be2d78a07865",
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865",
                 "shasum": ""
             },
             "require": {
@@ -3290,7 +3323,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -3317,9 +3350,9 @@
                 "simple-cache"
             ],
             "support": {
-                "source": "https://github.com/php-fig/simple-cache/tree/2.0.0"
+                "source": "https://github.com/php-fig/simple-cache/tree/3.0.0"
             },
-            "time": "2021-10-29T13:22:09+00:00"
+            "time": "2021-10-29T13:26:27+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -5391,16 +5424,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.4.2",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "e07cdd3d430cd7e453c31b36eb5ad6c0c5e43077"
+                "reference": "c38fd6b0b7f370c198db91ffd02e23b517426b58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/e07cdd3d430cd7e453c31b36eb5ad6c0c5e43077",
-                "reference": "e07cdd3d430cd7e453c31b36eb5ad6c0c5e43077",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/c38fd6b0b7f370c198db91ffd02e23b517426b58",
+                "reference": "c38fd6b0b7f370c198db91ffd02e23b517426b58",
                 "shasum": ""
             },
             "require": {
@@ -5451,7 +5484,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v3.4.2"
+                "source": "https://github.com/twigphp/Twig/tree/v3.4.3"
             },
             "funding": [
                 {
@@ -5463,7 +5496,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-08-12T06:47:24+00:00"
+            "time": "2022-09-28T08:42:51+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -5729,12 +5762,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "264a5085afd6e127daba3f47751fa971d3c29c3d"
+                "reference": "d95ffb9a830a93858ba078d3f84964b713a47aae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/264a5085afd6e127daba3f47751fa971d3c29c3d",
-                "reference": "264a5085afd6e127daba3f47751fa971d3c29c3d",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/d95ffb9a830a93858ba078d3f84964b713a47aae",
+                "reference": "d95ffb9a830a93858ba078d3f84964b713a47aae",
                 "shasum": ""
             },
             "conflict": {
@@ -5796,7 +5829,7 @@
                 "contao/core-bundle": "<4.9.18|>=4.10,<4.11.7|>=4.13,<4.13.3|= 4.10.0",
                 "contao/listing-bundle": ">=4,<4.4.8",
                 "contao/managed-edition": "<=1.5",
-                "craftcms/cms": "<3.7.36",
+                "craftcms/cms": "<3.7.55.2|>= 4.0.0-RC1, < 4.2.1",
                 "croogo/croogo": "<3.0.7",
                 "cuyz/valinor": "<0.12",
                 "czproject/git-php": "<4.0.3",
@@ -5932,7 +5965,7 @@
                 "league/commonmark": "<0.18.3",
                 "league/flysystem": "<1.1.4|>=2,<2.1.1",
                 "lexik/jwt-authentication-bundle": "<2.10.7|>=2.11,<2.11.3",
-                "librenms/librenms": "<22.4",
+                "librenms/librenms": "<=22.8",
                 "limesurvey/limesurvey": "<3.27.19",
                 "livehelperchat/livehelperchat": "<=3.91",
                 "livewire/livewire": ">2.2.4,<2.2.6",
@@ -5948,7 +5981,7 @@
                 "mautic/core": "<4.3|= 2.13.1",
                 "mediawiki/core": ">=1.27,<1.27.6|>=1.29,<1.29.3|>=1.30,<1.30.2|>=1.31,<1.31.9|>=1.32,<1.32.6|>=1.32.99,<1.33.3|>=1.33.99,<1.34.3|>=1.34.99,<1.35",
                 "mezzio/mezzio-swoole": "<3.7|>=4,<4.3",
-                "microweber/microweber": "<1.3.1",
+                "microweber/microweber": "<=1.3.1",
                 "miniorange/miniorange-saml": "<1.4.3",
                 "mittwald/typo3_forum": "<1.2.1",
                 "modx/revolution": "<= 2.8.3-pl|<2.8",
@@ -6011,7 +6044,7 @@
                 "phpwhois/phpwhois": "<=4.2.5",
                 "phpxmlrpc/extras": "<0.6.1",
                 "pimcore/data-hub": "<1.2.4",
-                "pimcore/pimcore": "<10.5.6",
+                "pimcore/pimcore": "<=10.5.6",
                 "pocketmine/bedrock-protocol": "<8.0.2",
                 "pocketmine/pocketmine-mp": "<4.7.2|>= 4.0.0-BETA5, < 4.4.2",
                 "pressbooks/pressbooks": "<5.18",
@@ -6140,7 +6173,7 @@
                 "topthink/thinkphp": "<=3.2.3",
                 "tribalsystems/zenario": "<9.2.55826",
                 "truckersmp/phpwhois": "<=4.3.1",
-                "twig/twig": "<1.38|>=2,<2.14.11|>=3,<3.3.8",
+                "twig/twig": "<1.44.7|>=2,<2.15.3|>=3,<3.4.3",
                 "typo3/cms": ">=6.2,<6.2.30|>=7,<7.6.32|>=8,<8.7.38|>=9,<9.5.29|>=10,<10.4.32|>=11,<11.5.16",
                 "typo3/cms-backend": ">=7,<=7.6.50|>=8,<=8.7.39|>=9,<=9.5.24|>=10,<=10.4.13|>=11,<=11.1",
                 "typo3/cms-core": ">=6.2,<=6.2.56|>=7,<7.6.58|>=8,<8.7.48|>=9,<9.5.37|>=10,<10.4.32|>=11,<11.5.16",
@@ -6171,7 +6204,7 @@
                 "wpanel/wpanel4-cms": "<=4.3.1",
                 "wwbn/avideo": "<=11.6",
                 "yeswiki/yeswiki": "<4.1",
-                "yetiforce/yetiforce-crm": "<6.4",
+                "yetiforce/yetiforce-crm": "<=6.4",
                 "yidashi/yii2cmf": "<=2",
                 "yii2mod/yii2-cms": "<1.9.2",
                 "yiisoft/yii": ">=1.1.14,<1.1.15",
@@ -6245,7 +6278,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-09-16T22:04:31+00:00"
+            "time": "2022-09-28T10:04:48+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -6310,6 +6343,7 @@
         "d4rk0snet/adoption": 20,
         "d4rk0snet/donation": 20,
         "d4rk0snet/coral-order": 20,
+        "d4rk0snet/coral-customer": 20,
         "d4rk0snet/coralguardian": 20,
         "hyperion/sendinblue": 20,
         "roave/security-advisories": 20
@@ -6321,5 +6355,5 @@
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
