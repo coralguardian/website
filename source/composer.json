@@ -126,13 +126,13 @@
     "roots/wordpress": "5.9.3",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
-    "d4rk0snet/adoption": "dev-dev",
-    "d4rk0snet/donation": "dev-dev",
-    "d4rk0snet/coral-order": "dev-dev",
-    "d4rk0snet/coral-customer": "dev-dev",
+    "d4rk0snet/adoption": "dev-pprod",
+    "d4rk0snet/donation": "dev-pprod",
+    "d4rk0snet/coral-order": "dev-pprod",
+    "d4rk0snet/coral-customer": "dev-pprod",
     "ext-json": "*",
     "advanced-custom-fields/advanced-custom-fields-pro": "5.9.*",
-    "d4rk0snet/coralguardian": "dev-dev",
+    "d4rk0snet/coralguardian": "dev-pprod",
     "hyperion/sendinblue": "dev-dev"
   },
   "require-dev": {
