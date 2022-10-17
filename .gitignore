@@ -1,3 +1,5 @@
+source/web/app/themes/coralguardian-theme
+source/web/app/languages/wpml
 source/vendor
 .idea
 *.DS_Store
