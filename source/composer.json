@@ -100,6 +100,11 @@
       "no-api": true
     },
     {
+      "type" : "vcs",
+      "url" :"git@github.com:coralguardian/theme.git",
+      "no-api": true
+    },
+    {
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -131,6 +136,7 @@
     "d4rk0snet/coral-order": "dev-prod",
     "d4rk0snet/coral-customer": "dev-prod",
     "ext-json": "*",
+    "d4rk0snet/coralguardian-theme": "dev-pprod",
     "advanced-custom-fields/advanced-custom-fields-pro": "5.9.*",
     "d4rk0snet/coralguardian": "dev-prod",
     "hyperion/sendinblue": "1.*"
