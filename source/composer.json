@@ -138,8 +138,8 @@
     "ext-json": "*",
     "advanced-custom-fields/advanced-custom-fields-pro": "5.9.*",
     "d4rk0snet/coralguardian": "dev-dev",
-    "hyperion/sendinblue": "dev-dev",
-    "d4rk0snet/coralguardian-theme": "dev-dev"
+    "d4rk0snet/coralguardian-theme": "dev-dev",
+    "ext-intl": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6.2",
