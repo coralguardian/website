@@ -56,26 +56,6 @@
     },
     {
       "type" : "vcs",
-      "url": "git@github.com:ds-hyperion/api2pdf.git",
-      "no-api": true
-    },
-    {
-      "type" : "vcs",
-      "url": "git@github.com:ds-hyperion/doctrine.git",
-      "no-api": true
-    },
-    {
-      "type" : "vcs",
-      "url": "git@github.com:ds-hyperion/restapi.git",
-      "no-api": true
-    },
-    {
-      "type" : "vcs",
-      "url": "git@github.com:ds-hyperion/stripe.git",
-      "no-api": true
-    },
-    {
-      "type" : "vcs",
       "url": "git@github.com:coralguardian/module-giftcode.git",
       "no-api": true
     },
