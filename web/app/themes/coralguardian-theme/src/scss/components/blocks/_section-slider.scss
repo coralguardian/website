@@ -1,0 +1,47 @@
+/* -------------------------------
+SLIDER SECTION COMPONENTS
+------------------------------- */
+.cbo-sectionslider{
+	.slider-container{
+		.slider-el{
+			height: 100%;
+
+			.el-inner{
+				padding-bottom: 50%;
+
+				.inner-content{
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					color: $colorwhite;
+					display: flex;
+					text-align: center;
+					flex-direction: column;
+					justify-content: flex-end;
+					align-items: center;
+					padding:15px;
+					z-index: 3;
+
+					.content-title{
+						font-size: 20px;
+						line-height: 20px;
+						font-weight: 700;
+					}
+					.content-legende{
+						font-size: 16px;
+						font-style: italic;
+					}
+				}
+				.inner-picture {
+					position: absolute;
+					width: 100%;
+					top: 0;
+					height: 100%;
+				}
+			}
+		}
+		.slick-dots{
+			margin-top: 30px;
+		}	
+	}
+}

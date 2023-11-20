@@ -1,0 +1,99 @@
+/* -------------------------------
+PRESSE SECTION COMPONENTS
+------------------------------- */
+.cbo-sectionpress{
+	.cbo-chapo{
+		margin-bottom: 40px;
+	}
+	.list-el{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		.el-inner{
+			width: 100%;
+			max-width: 300px;
+			margin: 0 auto;
+			padding: 10px 0;
+			display: block;
+			color: $colorblack;
+			transition: all .2s;
+
+			.inner-content{
+				height: 100%;
+				position: relative;
+				border: 3px solid $colorgrey;
+				border-radius: 9px;
+				display: block;
+				padding: 20px;
+				transition: all .4s;
+
+				.inner-picture{
+					width: 50px;
+					height: 50px;
+					border-radius:50px;
+					display:block;
+					overflow: hidden;
+					border: 1px solid $lightblue;
+				}
+				.inner-title{
+					display: block;
+					position: relative;
+	
+					&:before{
+						font-family:"icons";
+						content:"\f111";
+						font-size: 30px;
+						position: absolute;
+						bottom: -28px;
+					}
+				}
+				.inner-desc{
+					font-size: 16px;
+					line-height: 20px;
+					display: block; 
+					padding-top: 15px;
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+}
+/* -------------------------------
+SMALL SCREENS
+------------------------------- */
+@media (min-width: $screen-sm-min) {
+	.cbo-sectionpress{
+		.list-el{
+			margin-left: -10px;
+			width: calc(100% - -10px);
+
+			.el-inner{
+				max-width: inherit;
+				margin: 0 ;
+				width: 33.33333%;
+				padding: 10px;
+			}
+		}
+	}
+}
+/* -------------------------------
+MEDIUM SCREENS
+------------------------------- */
+@media (min-width: $screen-md-min) {
+	.cbo-sectionpress{
+		.list-el{
+			.el-inner{
+				width:25%;
+
+				&:hover{
+					color: $currentblue;
+
+					.inner-content{
+						border: 3px solid $currentblue;
+					}
+				}
+			}
+		}
+	}
+}

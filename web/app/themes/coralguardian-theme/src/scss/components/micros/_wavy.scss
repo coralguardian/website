@@ -1,0 +1,36 @@
+.cg-wavy {
+	&.wavy--ready{
+		opacity:1;
+	}
+	&.anim-cbo-wavy{
+		.wavy-letters{
+			.wavy-inner{
+				.word{
+					.letter {
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+	.wavy-letters{
+		.wavy-inner{
+			opacity:0;
+
+			&.active{
+				opacity:1;
+			}
+			.word{
+				display: inline-block;
+
+				.letter {
+					font-weight: lighter;
+					opacity: 0;
+					transform-origin: 0 100%;
+					display: inline-block;
+					transform:translateX(0.55em) translateY(0.55em) rotateZ(180deg);
+				}
+			}
+    	}
+	}
+}

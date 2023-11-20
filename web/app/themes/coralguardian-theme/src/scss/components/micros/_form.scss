@@ -1,0 +1,106 @@
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+input[type="password"],
+input[type="url"],
+textarea, 
+select{
+	height: 50px;
+	border-radius: 6px;
+	background-color: $colorwhite;
+	color: $darkblue;
+	border: none;
+	padding: 0 12px;
+	box-shadow: 0px 0px 0px 2px $lightblue inset;
+	width: 100%;
+	transition: all .5s cubic-bezier(.85,0,.15,1);
+
+	&:focus{
+		box-shadow: 0px 0px 0px 2px $darkblue inset;
+	}
+}	
+input[type=submit]{
+	border-radius: 6px;
+	border: none;
+    width: 100%;
+    height: 50px;
+	background: $darkblue;
+	color: $colorwhite;
+	cursor: pointer;
+	transition: all .5s cubic-bezier(.85,0,.15,1);
+		
+	&:hover{
+		color: $darkblue;
+		background: $lightblue;
+	}
+}
+textarea{
+	height: 140px;
+	resize: none;
+}
+.wpcf7-not-valid-tip{
+	position: relative;
+    font-size: 11px;
+    top: -7px;
+    line-height: 11px;
+    margin-left: 12px;
+	color: $colorred;
+	font-weight: bold;
+}
+.wpcf7-response-output{
+	font-weight: bold;
+	text-align: center;
+	font-size: 16px;
+	line-height: 18px;
+	margin: 15px 0 0 0;
+	color: $currentblue;
+}
+::-webkit-input-placeholder {
+	color:$darkblue;
+}
+::-moz-placeholder {
+	color: $darkblue;
+}
+:-ms-input-placeholder {
+	color: $darkblue;
+}
+:-moz-placeholder { 
+	color: $darkblue;
+}
+input[type=checkbox]{
+	width: 20px;
+    height: 20px;
+	margin-right: 15px;
+	box-shadow: 0px 0px 0px 2px $lightblue inset;
+}
+.wpcf7-list-item {
+	display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+
+	input[type=radio],
+	input[type=checkbox]{
+		background: none;
+		box-shadow: none;
+		width: 24px;
+		height: 24px;
+		margin: 0 15px 0 0;
+	}
+	
+}
+.input-checkbok{
+	.wpcf7-list-item {
+		flex-direction: row;
+	    justify-content: flex-start;
+	}
+}
+.screen-reader-response{
+	display: none;
+}
+.invalid{
+	.wpcf7-response-output{
+		color: $colorred;
+	}
+}

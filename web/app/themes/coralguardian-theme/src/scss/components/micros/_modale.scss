@@ -1,0 +1,117 @@
+/* -------------------------------
+   MODALE MICRO COMPONENT
+------------------------------- */
+.modale-newsletter{
+	width: 100%;
+	display: none;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	height: 100%;
+	padding: 20px;
+
+	.newsletter-inner{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+
+		.newsletter-content{
+			background: $lightblue;
+			border-radius: 20px;
+			position: relative;
+			width: 590px;
+			text-align: center;
+			z-index: 8;
+			max-height: 100%;
+			padding: 50px 30px;
+
+			&:before,
+			&:after{
+				content: '';
+				position: absolute;
+				left: 50%;
+			}
+			&:before{
+				background: url(../../library/img/logo-coral-guardian-small-white.svg);
+				width: 48px;
+				height: 48px;
+				top: -24px;
+				margin-left: -24px;
+				z-index: 1;
+			}
+			&:after{
+				background: $lightblue;
+				width: 80px;
+				height: 80px;
+				border-radius: 99rem;
+				top: -40px;
+				margin-left: -40px;
+			}
+			.content-close{
+				width: 30px;
+				height: 30px;
+				position: absolute;
+				top: 20px;
+				right: 10px;
+				cursor: pointer;
+	
+				.top,
+				.bottom{
+					position:absolute;
+					top: 4px;
+					right: 0;
+					background: $colorblack;
+					width: 12px;
+					height:2px;
+					border-radius: 99rem;
+					transform-origin: 50% 50% 0px;
+					transition:all .3s;
+				}
+				.top{
+					transform: rotate3d(0, 0, 1, 45deg);
+				}
+				.bottom{
+					transform: rotate3d(0, 0, 1, -45deg);
+				}
+			}
+			.content-title{
+				text-transform: initial;
+				font-size: 26px;
+				line-height: 30px;
+			}
+			.content-form{
+				.so-terms{
+					width: 100%;
+					font-size: 14px;
+					display: flex;
+					text-align: left;
+					align-items: center;
+					margin: 10px 0 50px 0;
+
+					input{
+						width: 16px;
+						height: 16px;
+					}
+				}
+				input[type="submit"]{
+					&:hover{
+						background: $colorwhite;
+					}
+				}
+			}
+		}
+	}
+	.modale-overlay{
+		visibility: visible;
+		opacity: 1;
+		background: rgba($darkblue, .6);
+		z-index:5;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		transition: all .6s cubic-bezier(.075,.82,.165,1);
+	}
+}

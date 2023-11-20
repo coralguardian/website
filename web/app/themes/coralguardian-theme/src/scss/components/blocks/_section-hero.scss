@@ -1,0 +1,66 @@
+/* -------------------------------
+   HERO SECTION COMPONENTS
+------------------------------- */
+.cbo-hero {
+	text-align: center;
+	color: $colorwhite;
+	position: relative;
+
+	.hero-picture{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+	}
+	.hero-inner{
+		padding-top: 120px;
+		padding-bottom: 120px;
+
+		.content-title{
+			font-size: 24px;
+			letter-spacing: 4.25px;
+			line-height: 34px;
+			margin-bottom: 30px;
+		}
+		.cbo-chapo{
+			font-weight: 700;
+		}
+		.hero-form{
+			.hero-form-right{
+				margin: 30px 0 0 0;
+			}
+		}
+	}		
+}
+/* -------------------------------
+MEDIUM SCREENS
+------------------------------- */
+@media (min-width: $screen-md-min) {
+	.cbo-hero {
+		.hero-inner{
+			.content-title{
+				font-size: 40px;
+				line-height: 65px;
+			}
+			.hero-form{
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+
+				.hero-form-left{
+					width: 48%;
+					text-align: left;
+
+					.cbo-chapo{
+						text-align: left;
+					}
+				}
+				.hero-form-right{
+					width: 48%;
+					margin: 0;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+/* -------------------------------
+NEWSLETTER SECTION COMPONENTS
+------------------------------- */
+.cbo-sectionnewsletter{
+	.sectionnewsletter-content{
+		border-top: 4px solid $darkblue;
+		padding-top: 50px;
+
+		.sectionnewsletter-form{
+			max-width: 500px;
+			margin: 50px auto 0 auto;
+
+			form{
+				input{
+					margin-bottom:20px;
+				}
+				.so-terms{
+					display: flex;
+					align-items: center;
+					margin:0 0 20px 0;
+							
+					input[type=checkbox]{
+						width: 20px;
+						margin-bottom: 0;
+					}
+				}
+				#sib_captcha{
+					margin-top: 20px;
+				}
+			}
+		}
+	}
+}

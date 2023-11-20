@@ -1,0 +1,58 @@
+/* -------------------------------
+SECTION ADOPTION COMPONENT
+------------------------------- */
+.cbo-sectioncontact{
+	.sectioncontact-content{
+		margin-bottom: 30px;
+
+		.sectioncontact-title{
+			text-align: left;
+
+			&:after{
+				margin-left: 0;
+				left: 0;
+			}
+		}
+		.cbo-chapo{
+			text-align: left;
+		}
+	}
+	.sectioncontact-form{		
+		form{
+			padding: 20px;
+			background: $colorwhite;
+			box-shadow: 0px 0px 5px -1px #d8d8d8;
+
+			p{
+				display: flex;
+				flex-wrap: wrap;
+				
+				.input-half,
+				.input-full{
+					margin: 0 0 20px 0;
+					position:relative;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+/* -------------------------------
+MEDIUM SCREENS
+------------------------------- */
+@media (min-width: $screen-md-min) {
+	.cbo-sectioncontact{
+		.sectioncontact-container{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		.sectioncontact-content{
+			margin-bottom: 0;
+			width: 48%;
+		}
+		.sectioncontact-form{	
+			width: 48%;	
+		}
+	}	
+}

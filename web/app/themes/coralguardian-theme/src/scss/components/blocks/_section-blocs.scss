@@ -1,0 +1,60 @@
+/* -------------------------------
+   BLOCS SECTION COMPONENTS
+------------------------------- */
+.cbo-sectionblocs{	
+	.sectionblocs-title{
+		margin: 50px 0;
+	}
+	.list-el{
+		margin-top: 40px;
+
+		.el-inner{
+			margin: 20px 0;
+			text-align: center;
+
+			.inner-content{
+				color: $colorblack;
+
+				.content-pic{
+					display: block;
+					margin: 0 auto 20px auto;
+					height: 95px;
+					width: 91px;
+				}
+				.bloc-number {
+					color: $colorwhite;
+					width: 60px;
+					height: 60px;
+					line-height: 60px;
+					font-weight: 700;
+					font-size: 30px;
+					background: $darkblue;
+					margin: auto;
+					border-radius: 60px;
+					display: block;
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+	.cbo-buttonscontainer{
+		margin-top: 50px;
+	}
+}
+/* -------------------------------
+SMALL SCREENS
+------------------------------- */
+@media (min-width: $screen-sm-min) {
+	.cbo-sectionblocs{	
+		.list-el{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+
+			.el-inner{
+				padding:0 20px;
+				width: 33.3333%;
+			}
+		}
+	}
+}

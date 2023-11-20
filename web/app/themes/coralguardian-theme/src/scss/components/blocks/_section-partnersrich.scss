@@ -1,0 +1,74 @@
+/* -------------------------------
+PARTNERS RICH SECTION COMPONENTS
+------------------------------- */
+.cbo-partnersrich{
+	.list-el{
+		.el-inner{
+			display: block;
+
+			.inner-content{
+				display: block;
+				margin: 40px 0;
+
+				.content-picture{
+					max-width: 300px;
+					height: 100px;
+					display: block;
+					margin: 0 auto;
+				}
+				.content-text{
+					display: block;
+					text-align: center;
+					color: $colorblack;
+					padding-top: 20px;
+					transition: all .4s;
+
+					.content-title{
+						margin-bottom: 20px;
+					}
+					.content-desc{
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* -------------------------------
+SMALL SCREENS
+------------------------------- */
+@media (min-width: $screen-sm-min) {
+	.cbo-partnersrich{
+		.list-el{
+			.el-inner{
+				.inner-content{
+					display: flex;
+					justify-content: space-between;
+					margin: 60px 0;
+
+					.content-picture{
+						width: 20%;
+						max-width: inherit;
+						height: auto;
+						margin: 0;
+					}
+					.content-text{
+						text-align: left;
+						width: 75%;
+						border-left: 2px solid $currentblue;
+						padding:0 0 0 20px;
+					}
+				}
+
+				&:hover{
+					.inner-content{
+						.content-text{
+							color: $currentblue;
+						}
+					}
+				}
+			}
+		}
+	}
+}

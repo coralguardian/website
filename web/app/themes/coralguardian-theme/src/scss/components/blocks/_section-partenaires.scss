@@ -1,0 +1,32 @@
+/* -------------------------------
+PARTNERS SECTION COMPONENTS
+------------------------------- */
+.cbo-partners{
+	.list-el{
+		.el-inner{
+			display: flex !important;
+			align-items: center;
+			justify-content: center;
+
+			.inner-content{
+				padding: 10px 0;
+
+				.content-picture{
+					width: 120px;
+					display: block;
+					padding-bottom: 70%;
+				}
+				.content-title{
+
+				}
+			}
+		}
+		.slick-dots {
+			margin-top: 40px;
+		}
+	}
+	.partners-button{
+		margin-top: 80px;
+		text-align: center;
+	}
+}

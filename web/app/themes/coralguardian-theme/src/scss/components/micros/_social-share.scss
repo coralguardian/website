@@ -1,0 +1,59 @@
+/* -------------------------------
+   SOCIAL SHARE MICRO COMPONENT
+------------------------------- */
+.swp_social_panelSide{
+	position: fixed;
+	left: 20px !important;
+
+	.swp_share_button{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 0 10px 0;
+		border-radius: 50% ;
+		width: 40px;
+		height: 40px;
+
+		.swp_share_link{
+			height: 100%;
+    		width: 100%;
+		}
+		&.swp_twitter,
+		&.swp_facebook,
+		&.swp_linkedin{
+			box-shadow: 0px 0px 0px 1px $darkblue inset;
+			position: relative;
+			color:$darkblue;
+			transition: .5s $easeinout;
+
+			&:after{
+				z-index: -1;
+				font-family:"icons";
+				margin-left: -37px;
+			}
+			&.swp_twitter{
+				&:after{
+					content: '\f110';
+				}
+			}
+			&.swp_linkedin{
+				&:after{
+					content: '\f10a';
+				}
+			}
+			&.swp_facebook{
+				&:after{
+					content: '\f106';
+				}
+			}
+			.swp_share{
+				display: none;
+			}
+			&:hover{
+				box-shadow: 0px 0px 0px 40px $darkblue inset;
+				color:$colorwhite;
+				z-index: 1;
+			}
+		}
+	}
+}

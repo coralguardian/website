@@ -1,0 +1,52 @@
+html,
+body{
+	min-height: 100%;
+}
+body{ 
+	font-style: normal;
+	font-family: $fontbase;
+	font-size: 18px;
+	line-height: 34px;
+	color:$colorblack;
+	margin: 0;
+	width: 100%;
+
+	&.body-popin-open{
+		overflow: hidden;
+		width: 100vw;
+		height: 100vh;
+		height: -webkit-fill-available;
+		overscroll-behavior: contain;
+	}
+}
+* {
+	box-sizing: border-box;
+
+	&:focus{
+		outline:none;
+	}
+}
+button{
+	border:0px;
+	background: none;
+}
+.cg-relative{
+	position: relative;
+	z-index: 4;
+}
+strong.colorlightblue{
+	color: $currentblue !important;
+}
+/* -------------------------------
+LARGE SCREENS
+------------------------------- */
+@media (min-width: $screen-lg-min) {
+	.size-medium{
+		width: 70%;
+		margin: 0 auto;
+	}
+	.size-small{
+		width: 50%;
+		margin: 0 auto;
+	}
+}

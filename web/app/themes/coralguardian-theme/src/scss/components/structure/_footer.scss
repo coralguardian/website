@@ -1,0 +1,158 @@
+/* -------------------------------
+   FOOTER COMPONENT
+   --
+   Mobile First !
+------------------------------- */
+
+footer{
+	background: $darkblue;
+	color: $colorwhite;
+	padding: 50px 15px 0 15px;
+	position: relative;
+	z-index: 3;
+	
+	a{
+		color: $colorwhite;
+	}
+	
+	.footer-container{
+		
+		.footer-col{
+			font-size: 16px;
+			line-height: 32px;
+			padding: 0 0 30px 0;
+			text-align: justify;
+			
+			&:last-child{
+				padding: 0;
+			}
+			
+			.widget-title{
+				font-size: 20px;
+				font-weight: 700;
+				text-transform: uppercase;
+				padding-bottom: 15px;
+				margin-bottom: 20px;
+				border-bottom:1px solid rgba(221, 232, 238, 0.2);
+				display: block;
+				width: 100%;
+			}
+			
+			.footer-social{
+				width: 40px;
+				height: 40px;
+				border-radius: 10px;
+				background-color: $colorwhite;
+				color: $darkblue;
+				display: inline-block;
+				margin: 0 15px 0 0;
+			    font-size: 18px;
+				text-align: center;
+				padding: 4px;
+			}
+			
+			.footer-newsletter{
+				margin: 50px 0 0 0;
+				
+				.sib_signup_form{
+					
+					input{
+						width: 100%;
+						margin:15px 0 0 0;
+					}
+					input[type="email"]{
+						margin: 0;
+					}
+					.so-terms{
+						margin:15px 0 0 0;
+						font-size: 14px;
+						line-height: 16px;
+						display: flex;
+						align-items: center;
+						
+						input[type=checkbox]{
+							margin:0 15px 0 0;
+							width: 20px;
+							box-shadow:  0 0 0 0 $colorwhite;
+						}
+						
+					}
+					
+					input[type=submit]{
+						
+						&:hover{
+							background: $colorwhite;
+						}
+						
+					}
+					
+				}
+
+				
+			}
+
+		}
+		
+	}
+	
+	.footer-bottom{
+	    font-size: 12px;
+    	text-align: center;
+    	padding: 50px 0 20px 0;
+	}
+		
+}
+
+/* -------------------------------
+MEDIUM SCREENS
+------------------------------- */
+@media (min-width: $screen-md-min) {
+	footer{
+		padding: 50px 0 0 0;
+
+		.footer-container{
+			display: flex;
+
+			.footer-col{
+				width: 33.333333%;
+				padding: 0 80px 0 0;
+
+				.menu-menu-du-footer-container{
+					a{
+						opacity: 1;
+						transition: .5s $easeinout;
+
+						&:hover{
+							opacity: 0.5;
+						}
+					}
+				}
+				.footer-social{
+					margin-bottom: 15px;
+					transform: scale(1);
+					transition: all .5s cubic-bezier(.85,0,.15,1);
+
+					&:hover{
+						transform: scale(1.1);
+					}
+				}				
+				.footer-newsletter{
+					margin-top: 30px;
+
+					.sib_signup_form{
+						display: flex;
+						flex-wrap: wrap;
+
+						input{
+							margin: 0;
+						}
+						input[type=submit]{
+							margin:15px 0 0 0;
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+}

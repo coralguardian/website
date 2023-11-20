@@ -1,0 +1,64 @@
+/* -------------------------------
+RELATIONEL SECTION COMPONENTS
+------------------------------- */
+.cbo-sectionrelation{
+   .list-el{
+      max-width: 400px;
+      margin: 0 auto;
+
+      .slick-list{
+         .slick-track{
+            .slick-slide {
+               height: 0px;
+               
+               &.slick-active {
+                  height: 100%;  
+               }
+               .cbo-article{
+                  padding: 0;
+               }
+            }
+         }
+      }
+      .slick-dots{
+         margin-top: 40px;
+      }
+   }
+	.cbo-buttonscontainer{
+		margin-top: 50px;
+	}
+}
+/* -------------------------------
+   SMALL SCREENS
+------------------------------- */
+@media (min-width: $screen-sm-min) {
+   .cbo-sectionrelation{
+      .list-el{
+         max-width: inherit;
+         margin: 0;
+
+         .slick-list{
+            .slick-track{
+               .slick-slide {
+                  height: auto;
+                  
+                  &.slick-active {
+                     height: auto;  
+                  }
+                  .cbo-article{
+                     height: 100%;
+                     padding: 0 10px;
+
+                     .article-inner{
+                        height: 100%;
+                     }
+                  }
+               }
+               .slick-slide > div{
+                  height: 100%;
+               }
+            }
+         }
+      }
+   }
+}

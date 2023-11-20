@@ -1,0 +1,12 @@
+{
+    "name": "d4rk0snet/coralguardian-theme",
+    "description": "Coralguardian theme",
+    "type": "wordpress-theme",
+    "authors": [
+        {
+            "name": "Gregory Collin",
+            "email": "gregory@d4rk0s.net"
+        }
+    ],
+    "require": {}
+}

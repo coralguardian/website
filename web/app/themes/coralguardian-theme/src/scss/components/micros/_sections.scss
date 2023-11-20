@@ -1,0 +1,33 @@
+/* -------------------------------
+MICRO COMPONENT FOR GLOBAL SECTIONS
+------------------------------- */
+.cbo-bg-light-blue{
+	.section-inner{
+		background: $lightblue;
+
+		.list-el .el-inner .inner-content {
+			border-color:$darkblue;
+		}
+	}
+}
+.cbo-bg-dark-blue{
+	.section-inner{
+		background: $darkblue;
+		color: $colorwhite;
+
+		.list-el .el-inner .inner-content{
+			color: $colorwhite;
+		}
+	}
+}
+.cbo-bg-white{
+	.section-inner{
+		.slick-slider .slick-dots li {
+			background: $lightblue;
+
+			&.slick-active{
+				background: $lightgreen;
+			}
+		}
+	}
+}

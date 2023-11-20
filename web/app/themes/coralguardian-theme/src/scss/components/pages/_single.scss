@@ -1,0 +1,195 @@
+/* -------------------------------
+   SINGLE PAGE COMPONENTS
+------------------------------- */
+.cg-page-single{
+	.cbo-hero{
+		margin-bottom: 50px;
+
+		&:after{
+			content: '';
+			background-color: rgba($darkblue, 0.7);
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+		.button{
+			height: 40px;
+			margin-bottom: 30px;
+
+		}
+	}
+	.cg-autor{
+		display: flex;
+		align-items: center;
+		margin: 0 0 70px 0;
+
+		img{
+			border-radius: 50%;
+			width: 60px;
+			height: 60px;
+			margin: 0 20px 0 0;
+		}
+		.autor-name{
+			font-size: 16px;
+			color: $colorgrey;
+
+			strong{
+				color: $darkblue;
+			}
+		}
+	}
+	.cg-tags-container{
+		display: block;
+		margin: 50px 0;
+		border-top: 1px dashed rgba(0, 0, 0, 0.2);
+		padding-top: 40px;
+		display: flex;
+
+		a{
+			color: $darkblue;
+			margin: 0 10px 0 0;
+			border-radius: 4px;
+			box-shadow: 0px 0px 0px 1px $darkblue inset;
+			font-size: 14px;
+			padding: 0 30px;
+			height: 30px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+	.cbo-sectionrelation{
+		.slick-slider{
+			.slick-dots{
+				li{
+					background:$darkblue;
+
+					&:hover,
+					&.slick-active{
+						background:$currentblue;
+					}
+				}
+			}
+		}
+	}
+	.cg-comments{
+		.cg-comments-list{
+			.comment{
+				.comment-body{
+					position: relative;
+
+					.comment-meta{
+						background: $colorwhite;
+						display: flex;
+						margin: 0 0 20px 0;
+						align-items: center;
+						justify-content: space-between;
+
+						.comment-author{
+							display: flex;
+							align-items: center;
+
+							.fn{
+								color: $darkblue;
+
+								a{
+									color: $darkblue;
+								}
+							}
+							.says{
+								display: none;
+							}
+							img{
+								border-radius: 50%;
+								width: 60px;
+								height: 60px;
+								margin: 0 20px 0 0;
+							}
+						}
+						.comment-metadata{
+							a{
+								font-size: 14px;
+								color: $colorgrey;
+							}
+						}
+					}
+					.comment-content{
+						background: rgba(216, 216, 216, 0.4);
+						font-size: 15px;
+						line-height: 25px;
+						padding: 20px;
+						margin: 0 0 30px 0;
+						border-radius: 0 30px 30px 30px;
+					}
+					.reply{
+						a{
+							background-color: $colorwhite;
+							color: $darkblue;
+							box-shadow: 0px 0px 0px 1px $darkblue;
+							display: block;
+							text-align: center;
+							border-radius: 6px;
+							cursor: pointer;
+							position: absolute;
+							font-size: 14px;
+							padding: 0 14px;
+							bottom: -16px;
+							right: 40px;
+						}
+					}
+				}
+				.children{
+					list-style-type: none;
+
+					.comment-body{
+						.comment-meta{
+							padding: 0;
+							flex-direction: row-reverse;
+
+							.comment-author{
+								flex-direction: row-reverse;
+
+								img{
+									margin: 0 0 0 20px;
+								}
+							}
+						}
+						.comment-content{
+							background: $lightblue;
+							color: $colorwhite;
+							border-radius: 30px 0 30px 30px;
+							text-align: right;
+
+							a{
+								color: $lightblue;
+							}
+						}
+						.reply{
+							a{
+								right: inherit;
+								left: 40px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/* -------------------------------
+SMALL SCREENS
+------------------------------- */
+@media (min-width: $screen-sm-min) {
+	.cg-tags-container{
+		a{
+			transition: .5s $easeinout;
+
+			&:hover{
+				box-shadow: 0px 0px 0px 50px $darkblue inset;
+				color: $colorwhite;
+			}
+		}
+	}
+}

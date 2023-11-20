@@ -1,0 +1,43 @@
+/* -------------------------------
+CONTAINER MICRO COMPONENT
+------------------------------- */
+.cbo-container {
+  width: 100%;
+  padding: 0 20px;
+  margin: 50px auto;
+  max-width: 1130px;
+  position: relative;
+
+  &.container-nomargin{
+    margin: 0 auto; ;
+  }
+  &.container-padding {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  &.container-large{
+    max-width: 1330px;
+  }
+  &.paddingtop-none{
+    padding-top: 0;
+  }
+}
+/* -------------------------------
+MEDIUM SCREENS
+------------------------------- */
+@media (min-width: $screen-md-min) {
+  .cbo-container {
+    padding: 0 80px;
+    margin: 80px auto;
+
+    &.container-padding {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+    &.paddingtop-none{
+      padding-top: 0;
+    }
+  }
+}

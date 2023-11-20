@@ -1,0 +1,48 @@
+/* -------------------------------
+BLOCS WITH BIG NUMBER SECTION COMPONENTS
+------------------------------- */
+.cbo-sectionnumber{
+	.cbo-chapo{
+		margin-bottom: 40px;
+	}
+	.list-el{
+		.el-inner {
+			padding: 10px 0;
+
+			.inner-content{
+				height: 100%;
+				border: 2px solid $lightblue;
+				border-radius: 9px;
+				padding: 20px;
+
+				.inner-number{
+					font-family:$fonttitle;
+					font-size: 60px;
+					line-height: 60px;
+				}
+				.inner-desc{
+					line-height: 22px;
+				}
+			}
+		}
+	}
+	.cbo-buttonscontainer{
+		margin-top: 40px;
+	}
+}
+/* -------------------------------
+SMALL SCREENS
+------------------------------- */
+@media (min-width: $screen-sm-min) {
+	.cbo-sectionnumber{
+		.list-el{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+
+			.el-inner{
+				width: 49%;
+			}
+		}
+	}
+}

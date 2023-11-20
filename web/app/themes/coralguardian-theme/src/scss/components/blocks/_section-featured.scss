@@ -1,0 +1,123 @@
+/* -------------------------------
+SECTION FEATURED COMPONENTS
+------------------------------- */
+.cbo-sectionfeatured{
+	.cg-featured{
+		margin-top: 30px;
+		padding: 20px;
+		text-align: center;
+
+		&.featured-white{
+			color: $darkblue;
+		}
+		.featured-surtitre{
+			display: block;
+			margin-bottom: 30px;
+			padding-bottom: 15px;
+			position: relative;
+
+			&:after{
+				content: '';
+				background: $colorwhite;
+				width: 48px;
+				height: 1px;
+				position: absolute;
+				bottom: 0;
+				left: 50%;
+				margin-left: -24px;
+			}
+		}
+		.featured-title{
+			display: block;
+			font-family: $fonttitle;
+			font-size: 26px;
+			line-height: 36px;
+		}
+		.blocs-container{
+			margin-top: 25px;
+			
+			.bloc{
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				flex-direction: column;	
+				position: relative;
+				width: 100%;
+				padding: 25px 0 25px 0;
+				
+				.featured-round{
+					width: 20px;
+					height: 20px;
+					background-color: $colorwhite;
+					border-radius: 50%;
+					position: absolute;
+					top: 0;
+					left: 50%;
+					margin-left: -10px;
+				}
+				.bloc-txt{
+					font-size: 14px;
+					line-height: 20px;
+				}
+			}
+		}
+		&.featured-darkblue{
+			background: $darkblue;
+			color: $colorwhite;
+		}
+		&.featured-blue{
+			background: $lightblue;
+			color: $darkblue;
+
+			.featured-surtitre{
+				&:after{
+					background: $darkblue;
+				}
+			}
+			.blocs-container{
+				.bloc{
+					.featured-round{
+						background-color: $darkblue;
+					}
+				}
+			}
+		}
+		&.featured-white{
+			background-color: $colorwhite;
+
+			.featured-surtitre{
+				&:after{
+					background: $colorblack;
+				}
+			}
+			.blocs-container{
+				.bloc{
+					.featured-round{
+						background-color: $darkblue;
+					}
+				}
+			}
+		}	
+	}
+}
+/* -------------------------------
+SMALL SCREENS
+------------------------------- */
+@media (min-width: $screen-sm-min) {
+	.cbo-sectionfeatured{
+		.cg-featured{
+			padding: 20px;
+
+			.blocs-container{
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				
+				.bloc{
+					width: 48%;
+					padding: 50px 0 0 0;
+				}
+			}
+		}
+	}
+}
