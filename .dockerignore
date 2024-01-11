@@ -1,0 +1,5 @@
+vendor
+web/app/plugins/*
+web/app/uploads/*
+web/wp
+Dockerfile
