@@ -11,13 +11,19 @@ services:
         - '80:80'
     volumes:
         - .:/app
+    labels:
+      - "traefik.http.routers.web.rule=Host(`www.coralguardian.org`)"
+
   mysql:
-    image: mysql:latest
+    image: yobasystems/alpine-mariadb
     environment:
         - MYSQL_ROOT_PASSWORD=root
         - MYSQL_DATABASE=coralguardian
     container_name: coralguardian-db-mysql
     volumes:
-        - .docker/persistent-data:/var/lib/mysql
+        - mysql-storage:/var/lib/mysql
     ports:
         - '3306:3306'
+
+volumes: 
+  mysql-storage:
