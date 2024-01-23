@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ddeaa60803904027262c45b09c81a9a0",
+    "content-hash": "3ef1de141d190b0ccaf1f06acea42ee1",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -260,12 +260,12 @@
             "version": "dev-prod",
             "source": {
                 "type": "git",
-                "url": "git@github.com:coralguardian/module-adoption.git",
+                "url": "git@github.com:coral-guardian-dev/module-adoption.git",
                 "reference": "11cdb8843dd2208ff30b7c37e4ab5976c8229ee8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-adoption/zipball/11cdb8843dd2208ff30b7c37e4ab5976c8229ee8",
+                "url": "https://api.github.com/repos/coral-guardian-dev/module-adoption/zipball/11cdb8843dd2208ff30b7c37e4ab5976c8229ee8",
                 "reference": "11cdb8843dd2208ff30b7c37e4ab5976c8229ee8",
                 "shasum": ""
             },
@@ -304,12 +304,12 @@
             "version": "dev-prod",
             "source": {
                 "type": "git",
-                "url": "git@github.com:coralguardian/module-certificate.git",
+                "url": "git@github.com:coral-guardian-dev/module-certificate.git",
                 "reference": "4929b88533e4ae6fe7254f1746537817ec4d73ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-certificate/zipball/4929b88533e4ae6fe7254f1746537817ec4d73ed",
+                "url": "https://api.github.com/repos/coral-guardian-dev/module-certificate/zipball/4929b88533e4ae6fe7254f1746537817ec4d73ed",
                 "reference": "4929b88533e4ae6fe7254f1746537817ec4d73ed",
                 "shasum": ""
             },
@@ -339,12 +339,12 @@
             "version": "dev-prod",
             "source": {
                 "type": "git",
-                "url": "git@github.com:coralguardian/module-customer.git",
+                "url": "git@github.com:coral-guardian-dev/module-customer.git",
                 "reference": "5ed1347e49841e9fc00b9b86883c30b704568765"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-customer/zipball/5ed1347e49841e9fc00b9b86883c30b704568765",
+                "url": "https://api.github.com/repos/coral-guardian-dev/module-customer/zipball/5ed1347e49841e9fc00b9b86883c30b704568765",
                 "reference": "5ed1347e49841e9fc00b9b86883c30b704568765",
                 "shasum": ""
             },
@@ -371,12 +371,12 @@
             "version": "dev-prod",
             "source": {
                 "type": "git",
-                "url": "git@github.com:coralguardian/module-order.git",
+                "url": "git@github.com:coral-guardian-dev/module-order.git",
                 "reference": "40b9a4f2e46ab3c6772617679094e5ff9b098f5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-order/zipball/40b9a4f2e46ab3c6772617679094e5ff9b098f5c",
+                "url": "https://api.github.com/repos/coral-guardian-dev/module-order/zipball/40b9a4f2e46ab3c6772617679094e5ff9b098f5c",
                 "reference": "40b9a4f2e46ab3c6772617679094e5ff9b098f5c",
                 "shasum": ""
             },
@@ -405,12 +405,12 @@
             "version": "dev-prod",
             "source": {
                 "type": "git",
-                "url": "git@github.com:coralguardian/module-coralguardian.git",
+                "url": "git@github.com:coral-guardian-dev/module-coralguardian.git",
                 "reference": "9cd852fdbdacd327ef3858a54ce67ed1c89339d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-coralguardian/zipball/9cd852fdbdacd327ef3858a54ce67ed1c89339d3",
+                "url": "https://api.github.com/repos/coral-guardian-dev/module-coralguardian/zipball/9cd852fdbdacd327ef3858a54ce67ed1c89339d3",
                 "reference": "9cd852fdbdacd327ef3858a54ce67ed1c89339d3",
                 "shasum": ""
             },
@@ -436,12 +436,12 @@
             "version": "dev-prod",
             "source": {
                 "type": "git",
-                "url": "git@github.com:coralguardian/theme.git",
+                "url": "git@github.com:coral-guardian-dev/theme.git",
                 "reference": "7f866e985b8a94efb21413487609b581a3050b4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/theme/zipball/7f866e985b8a94efb21413487609b581a3050b4c",
+                "url": "https://api.github.com/repos/coral-guardian-dev/theme/zipball/7f866e985b8a94efb21413487609b581a3050b4c",
                 "reference": "7f866e985b8a94efb21413487609b581a3050b4c",
                 "shasum": ""
             },
@@ -460,12 +460,12 @@
             "version": "dev-prod",
             "source": {
                 "type": "git",
-                "url": "git@github.com:coralguardian/module-donation.git",
+                "url": "git@github.com:coral-guardian-dev/module-donation.git",
                 "reference": "a58bd7bd0e4b3b44df16cc777167cad37561e3ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-donation/zipball/a58bd7bd0e4b3b44df16cc777167cad37561e3ee",
+                "url": "https://api.github.com/repos/coral-guardian-dev/module-donation/zipball/a58bd7bd0e4b3b44df16cc777167cad37561e3ee",
                 "reference": "a58bd7bd0e4b3b44df16cc777167cad37561e3ee",
                 "shasum": ""
             },
@@ -497,12 +497,12 @@
             "version": "dev-prod",
             "source": {
                 "type": "git",
-                "url": "git@github.com:coralguardian/module-fiscalreceipt.git",
+                "url": "git@github.com:coral-guardian-dev/module-fiscalreceipt.git",
                 "reference": "6cdd00f84be3d3608473bde8f3115c49cdc9873a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-fiscalreceipt/zipball/6cdd00f84be3d3608473bde8f3115c49cdc9873a",
+                "url": "https://api.github.com/repos/coral-guardian-dev/module-fiscalreceipt/zipball/6cdd00f84be3d3608473bde8f3115c49cdc9873a",
                 "reference": "6cdd00f84be3d3608473bde8f3115c49cdc9873a",
                 "shasum": ""
             },
@@ -532,12 +532,12 @@
             "version": "dev-prod",
             "source": {
                 "type": "git",
-                "url": "git@github.com:coralguardian/module-giftcode.git",
+                "url": "git@github.com:coral-guardian-dev/module-giftcode.git",
                 "reference": "16c45c267b67970c69102c6bc59934ecea63e6da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-giftcode/zipball/16c45c267b67970c69102c6bc59934ecea63e6da",
+                "url": "https://api.github.com/repos/coral-guardian-dev/module-giftcode/zipball/16c45c267b67970c69102c6bc59934ecea63e6da",
                 "reference": "16c45c267b67970c69102c6bc59934ecea63e6da",
                 "shasum": ""
             },
@@ -560,12 +560,12 @@
             "version": "dev-prod",
             "source": {
                 "type": "git",
-                "url": "git@github.com:coralguardian/module-naming_file_import.git",
+                "url": "git@github.com:coral-guardian-dev/module-naming-file-import.git",
                 "reference": "a405feab3e60f6f53981f6fe71137ae3d6b5e1cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coralguardian/module-naming_file_import/zipball/a405feab3e60f6f53981f6fe71137ae3d6b5e1cf",
+                "url": "https://api.github.com/repos/coral-guardian-dev/module-naming-file-import/zipball/a405feab3e60f6f53981f6fe71137ae3d6b5e1cf",
                 "reference": "a405feab3e60f6f53981f6fe71137ae3d6b5e1cf",
                 "shasum": ""
             },
@@ -574,6 +574,7 @@
                 "wordpress-hyperion/doctrine": "1.*",
                 "wordpress-hyperion/restapi": "1.*"
             },
+            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -1426,16 +1427,16 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "2.17.2",
+            "version": "2.17.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/orm.git",
-                "reference": "393679a4795e49b0b3ac317dce84d0f8888f2b77"
+                "reference": "398ab0547aaf90bdb352b560a94c24f44ff00670"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/orm/zipball/393679a4795e49b0b3ac317dce84d0f8888f2b77",
-                "reference": "393679a4795e49b0b3ac317dce84d0f8888f2b77",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/398ab0547aaf90bdb352b560a94c24f44ff00670",
+                "reference": "398ab0547aaf90bdb352b560a94c24f44ff00670",
                 "shasum": ""
             },
             "require": {
@@ -1521,9 +1522,9 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/orm/issues",
-                "source": "https://github.com/doctrine/orm/tree/2.17.2"
+                "source": "https://github.com/doctrine/orm/tree/2.17.3"
             },
-            "time": "2023-12-20T21:47:52+00:00"
+            "time": "2024-01-16T21:32:04+00:00"
         },
         {
             "name": "doctrine/persistence",
@@ -5901,12 +5902,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "d38bb902559d517bf82d5388f9b36e0200d2671d"
+                "reference": "f81bd7cb90f5f30d3b246e342843ae905947158f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/d38bb902559d517bf82d5388f9b36e0200d2671d",
-                "reference": "d38bb902559d517bf82d5388f9b36e0200d2671d",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/f81bd7cb90f5f30d3b246e342843ae905947158f",
+                "reference": "f81bd7cb90f5f30d3b246e342843ae905947158f",
                 "shasum": ""
             },
             "conflict": {
@@ -6238,8 +6239,8 @@
                 "neorazorx/facturascripts": "<2022.04",
                 "neos/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.12|>=3.1,<3.1.10|>=3.2,<3.2.13|>=3.3,<3.3.13|>=4,<4.0.6",
                 "neos/form": ">=1.2,<4.3.3|>=5,<5.0.9|>=5.1,<5.1.3",
+                "neos/media-browser": "<7.3.19|>=8,<8.0.16|>=8.1,<8.1.11|>=8.2,<8.2.11|>=8.3,<8.3.9",
                 "neos/neos": ">=1.1,<1.1.3|>=1.2,<1.2.13|>=2,<2.0.4|>=2.3,<2.9.99|>=3,<3.0.20|>=3.1,<3.1.18|>=3.2,<3.2.14|>=3.3,<5.3.10|>=7,<7.0.9|>=7.1,<7.1.7|>=7.2,<7.2.6|>=7.3,<7.3.4|>=8,<8.0.2",
-                "neos/neos-ui": "<=8.3.3",
                 "neos/swiftmailer": ">=4.1,<4.1.99|>=5.4,<5.4.5",
                 "netgen/tagsbundle": ">=3.4,<3.4.11|>=4,<4.0.15",
                 "nette/application": ">=2,<2.0.19|>=2.1,<2.1.13|>=2.2,<2.2.10|>=2.3,<2.3.14|>=2.4,<2.4.16|>=3,<3.0.6",
@@ -6362,8 +6363,8 @@
                 "serluck/phpwhois": "<=4.2.6",
                 "sfroemken/url_redirect": "<=1.2.1",
                 "sheng/yiicms": "<=1.2",
-                "shopware/core": "<=6.4.20",
-                "shopware/platform": "<=6.4.20",
+                "shopware/core": "<=6.5.7.3",
+                "shopware/platform": "<=6.5.7.3",
                 "shopware/production": "<=6.3.5.2",
                 "shopware/shopware": "<=5.7.17",
                 "shopware/storefront": "<=6.4.8.1",
@@ -6624,7 +6625,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-15T21:04:10+00:00"
+            "time": "2024-01-17T21:04:22+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",

@@ -31,32 +31,32 @@
     },
     {
       "type" : "vcs",
-      "url": "git@github.com:coralguardian/module-adoption.git",
+      "url": "git@github.com:coral-guardian-dev/module-adoption.git",
       "no-api": true
     },
     {
       "type" : "vcs",
-      "url": "git@github.com:coralguardian/module-donation.git",
+      "url": "git@github.com:coral-guardian-dev/module-donation.git",
       "no-api": true
     },
     {
       "type" : "vcs",
-      "url": "git@github.com:coralguardian/module-fiscalreceipt.git",
+      "url": "git@github.com:coral-guardian-dev/module-fiscalreceipt.git",
       "no-api": true
     },
     {
       "type" : "vcs",
-      "url": "git@github.com:coralguardian/module-coralguardian.git",
+      "url": "git@github.com:coral-guardian-dev/module-coralguardian.git",
       "no-api": true
     },
     {
       "type" : "vcs",
-      "url": "git@github.com:coralguardian/module-certificate.git",
+      "url": "git@github.com:coral-guardian-dev/module-certificate.git",
       "no-api": true
     },
     {
       "type" : "vcs",
-      "url": "git@github.com:coralguardian/module-giftcode.git",
+      "url": "git@github.com:coral-guardian-dev/module-giftcode.git",
       "no-api": true
     },
     {
@@ -66,22 +66,22 @@
     },
     {
       "type" : "vcs",
-      "url": "git@github.com:coralguardian/module-naming_file_import.git",
+      "url": "git@github.com:coral-guardian-dev/module-naming-file-import.git",
       "no-api": true
     },
     {
       "type" : "vcs",
-      "url": "git@github.com:coralguardian/module-order.git",
+      "url": "git@github.com:coral-guardian-dev/module-order.git",
       "no-api": true
     },
     {
       "type" : "vcs",
-      "url": "git@github.com:coralguardian/module-customer.git",
+      "url": "git@github.com:coral-guardian-dev/module-customer.git",
       "no-api": true
     },
     {
       "type" : "vcs",
-      "url" :"git@github.com:coralguardian/theme.git",
+      "url" :"git@github.com:coral-guardian-dev/theme.git",
       "no-api": true
     },
     {

@@ -1,5 +1,5 @@
-vendor
-web/app/plugins/*
-web/app/uploads/*
-web/wp
+source/vendor
+source/web/app/plugins/*
+source/web/app/uploads/*
+source/web/wp
 Dockerfile
